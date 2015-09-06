@@ -683,11 +683,29 @@ body .container .container {
   border-radius: 5px;
   background-image: url("../images/20150616112713_nd5iibhku5.png");
 }
-/* line 602, ../sass/style.scss */
-body .container .img-list a img.show {
-  display: block;
+/* line 600, ../sass/style.scss */
+body .container .img-list {
+  position: relative;
+  top: 290px;
+}
+/* line 603, ../sass/style.scss */
+body .container .img-list a {
+  float: left;
 }
 /* line 605, ../sass/style.scss */
 body .container .img-list a img {
+  display: block;
+  margin: 0 4px;
+}
+/* line 609, ../sass/style.scss */
+body .container .img-list a .list-start {
+  margin: 0 4px 0 0;
+}
+/* line 612, ../sass/style.scss */
+body .container .img-list a .list-end {
+  margin: 0 0 0 4px;
+}
+/* line 615, ../sass/style.scss */
+body .container .img-list a .next {
   display: none;
 }

@@ -598,14 +598,25 @@ body{
             background-image: url("../images/20150616112713_nd5iibhku5.png");
        }
        .img-list{
-        a{
-            img.show{
-                display: block;
+            position: relative;
+            top:290px;
+            a{
+                float: left;
+                img{
+                    display: block;
+                    margin:0 4px;
+                }
+                .list-start{
+                    margin:0 4px 0 0;
+                }
+                .list-end{
+                    margin:0 0 0 4px;
+                }
+                .next{
+                    display: none;
+                }
+               
             }
-            img{
-                display: none;
-            }
-        }
        }
     }
 }
