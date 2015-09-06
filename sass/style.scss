@@ -17,16 +17,15 @@ body{
          clear:both;
          content: " ";
     }
-
     .main-bg{
 		 width:100% ;
 		 background:url("../images/main-bg.jpg") no-repeat top center;
 		 header{
+            width:1000px;
+            margin:0 auto;
 		 	img{
 		 		float:left;
 		 	}
-		 	width:1000px;
-		 	margin:0 auto;
 		 	ul{
 		 		float:left;
 		 		line-height:70px;
@@ -45,7 +44,6 @@ body{
 		 			a:hover{
 		 					color:#ff8e00;
 		 				}
-
 		 		}
 		 	}
 		 	.transport_num{
@@ -106,517 +104,656 @@ body{
 		 		background-position:center;
 		 	}
 		 }
-	}
-	.container{
-		width:1000px;
-		margin:0 auto;
-		margin-top: 50px;
-        .left-container{
-            width: 41.66667%;
-            height: 550px;
-            float: left;
-            margin-bottom: 30px;
-           .pc-span5{
-            width: 100%;
-            border-radius: 5px;
-            background-image:url(../images/main-bg-mask.png);
-            .left-top{
-                
-                border-radius:2px;
-                ul{
-                    height:40px;
-                    padding:0 19px;
-                    li{
-                        float:left;
-                        width:33.33333%;
-                        list-style:none;
-                        background-image:url(../images/home-air-order.png);
-                        background-repeat:no-repeat;
-                        height:40px;
-                        padding:10px 35px;
-                        color:#96b4d0;
-                    }
-                    .book{
-                        background-position:0 0;
-                    }
-                    .online{
-                        background-position:-130px -1px;
-                    }
-                    .airnews{
-                        background-position:-260px 0px;
-                    }
-                }
-            }
-            .left-middle{
-                width:300px;
-                margin:10px;
-                    div{
-                        margin-top:10px;
-                        margin-right:20px;
-                        float:left;
-                        .radio{
-                            width:20px;
-                            height:20px;
-                            background:url(../images/radios_yellow.png) no-repeat -63px -7px;
-                            margin-right:5px;
-                        }
-                        label{
-                            float:left;
-                            margin-top:10px;
-                            color:#fff;
-                        }
-                    }
-                    .active{
-                        .radio{
-                            background:url(../images/radios_yellow.png) no-repeat -14px -7px;
-                        }
-                    }
-                }
-            .left-bottom{
-                margin: 15px 10px;
-                div{
-                    float: left;
-                    margin-top:15px;
-                    background: rgba(255, 255, 255, 0.2);
-                    width:100%;
-                    height:40px;
-                    box-sizing:border-box;
-                    border:1px solid transparent;
-                    border-radius: 20px;
-                    i{
-                        float: left;
-                        width:36px;
-                        display: inline-block;
-                        height:40px;
-                        background:url('../images/icons-s629bad6460.png');
-                        
-                    }
-                    input{
-                        
-                        margin-left:10px;
-                        float: left;
-                        width:128px;
-                        height:40px;
-                        border:0;
-                        background:transparent;
-                        outline: none;
-                        font-size: 14px;
-                        font-family: Microsoft yahei;
-                        font-weight: 100;
-                        color:#fff;
-
-                    }
-                    input::-webkit-input-placeholder{
-                        color:#fff;
-                    }
-                    .start{
-                        background-position: 0 -2300px;
-                    }
-                    .end{
-                        background-position: 0 -1950px;
-                    }
-                    .twoWay{
-                        background-position: 0 -300px;
-                        float: right;
-                    }
-                    .go-time{
-                        background-position:0 -2450px;
-                    }
-                    .seat{
-                        background-position: 0 -2250px;
-                    }
-                    .btndown{
-                        background:url("../images/newdownbtn.png") no-repeat;
-                        background-position: 0 4px;
-                        float: right;
-                    }
-                    .num{
-                        background-position: 0 -2050px;
-                    }
-                }
-                .person-3{
-                    width:40%;
-                    label{
-                        float:left;
-                        margin:10px;
-                        color: #fff;
-                        font-style: normal;
-                    }
-                    span{
-                        float:left;
-                        display: inline-block;
-                        width:28px;
-                        height:28px;    
-                        background: url("../images/newregulation-controll-white.png");
-                    }
-                    .person-add{
-                        margin-left:30px;
-                        margin-top:5px;
-                        border-top-left-radius: 14px;
-                        border-bottom-left-radius: 14px;
-                        background-position: 0 0;
-                    }
-                    .person-minus{
-                        margin-right:2px;
-                        margin-top:5px;
-                        border-top-right-radius: 14px;
-                        border-bottom-right-radius: 14px;
-                        background-position: -26px 0px;
-                    }
-                }
-                .person-0{
-                    width:40%;
-                    margin-left: 19%;
-                    label{
-                        float:left;
-                        margin:10px;
-                        color: #fff;
-                        font-style: normal;
-                    }
-                    .child{
-                        background-position: 0 -2690px;
-                    }
-                    span{
-                        float:left;
-                        display: inline-block;
-                        width:28px;
-                        height:28px;    
-                        background: url("../images/newregulation-controll-white.png");
-                    }
-                    .person-add{
-                        margin-left:30px;
-                        margin-top:5px;
-                        border-top-left-radius: 14px;
-                        border-bottom-left-radius: 14px;
-                        background-position: 0 0;
-                    }
-                    .person-minus{
-                        margin-right:2px;
-                        margin-top:5px;
-                        border-top-right-radius: 14px;
-                        border-bottom-right-radius: 14px;
-                        background-position: -26px 0px;
-                    }
-                }   
-                .input-btn{
-                    width:60%;
-                    margin:30px 0 30px 20%;
-                    height:38px;
-                    border-radius:19px;
-                    background:#f98c03;
-                    border:1px solid #f98c03;
-                    color:#fff;
-                    font-size:16px;
-                    font-weight: 700;
-                    outline: none;
-                }               
-            }
-            } 
-        }
-		.pc-span3{
-			float:right;
-			h1{
-				font-size: 39px;
-				color:#fff;
-				font-style: normal;
-				margin:60px 10px;
-				text-shadow: 0 0 150px #fff;
-			}
-		}
-        .sale{
-            width:100%;
-            margin-top: 20px;
-            .title{
-                text-align: center; 
-                h3{
-                    height:60px;
-                    padding:16px 0;
-                    border-radius:5px 5px 0 0; 
-                    background: rgba(26, 117, 188, 0.81);
-                    color:#fff;
-                    font-size:18px;
-                    font-weight: 100;
-                    a{
-                        font-size: 14px;
-                        color: #fff;
-                        float: right;
-                        text-decoration: none;
-                        margin-right:10px;
-                        margin-top:5px;
-                    }
-                }
-            }
-            .salelist{
-                width:100%;
-                height: 260px;
-                background-color: #1a77be;
-                background-image: linear-gradient(to bottom, #1a77be 0%, #135695 100%);
-                border-bottom-left-radius: 5px;
-                border-bottom-right-radius: 5px;
-                div{
-                    width: 166.656px;
-                    height: 257px;
-                    padding: 45px 20px;
-                    float:left;
-                    overflow: hidden;
-                    span{
-                        width:31%;
-                        height: 50px;
-                        float: left;
-                        margin:0;
-                        border-radius: 3px;
-                        background: #fff;
-                    }
-                    .mid{
-                        margin:0 3px;
-                    }
-                    table{
-                        width: 100%;
-                        height: 25px;
-                         border-bottom:1px solid #4582bb;
-                        tr{
-                            width: 100%;
-                            td{
-                                width:33%;
-                                color:#5792c9;
-                                text-align: center;
+         .container{
+            width:1000px;
+            margin:0 auto;
+            margin-top: 50px;
+            .left-container{
+                width: 41.66667%;
+                height: 550px;
+                float: left;
+                margin-bottom: 30px;
+               .pc-span5{
+                    width: 100%;
+                    border-radius: 5px;
+                    background-image:url(../images/main-bg-mask.png);
+                    .left-top{ 
+                        border-radius:2px;
+                        ul{
+                            height:40px;
+                            padding:0 19px;
+                            li{
+                                float:left;
+                                width:33.33333%;
+                                list-style:none;
+                                background-image:url(../images/home-air-order.png);
+                                background-repeat:no-repeat;
+                                height:40px;
+                                padding:10px 35px;
+                                color:#96b4d0;
+                            }
+                            .book{
+                                background-position:0 0;
+                            }
+                            .online{
+                                background-position:-130px -1px;
+                            }
+                            .airnews{
+                                background-position:-260px 0px;
                             }
                         }
-
                     }
-                    .price{
-                        color:#ff9600;
-                        font-size: 25px;
-                        position:relative;
-                        top:15px;
-                        left:30%;
-                        font-weight: 700;
-                    }
-                    .price:after{
-                        content: "CNY";
-                        font-size: 8px;
-                        position: relative;
-                        font-weight: 100;
-                        left: 10px;
-                        top:-10px;
-                    }
-                    .addr, .stime{
-                        text-align: center;
-                        color:#ff9600;
-                        font-size: 14px;
-                        margin-top: 25px;
-                    }
-                    .stime{
-                        margin-top:5px;
-                    }
-                    .overplus{
-                        display: none;
-                    }
-                }
-                div:hover{
-                    width: 166.656px;
-                    height: 290px;
-                    padding: 45px 20px;
-                    float:left;
-                    background: #ff9600;
-                    border-radius: 0 0 5px 5px;
-                    table{
-                        width: 100%;
-                        height: 25px;
-                         border-bottom:1px solid #fff;
-                        tr{
-                            width: 100%;
-                            td{
-                                width:33%;
+                    .left-middle{
+                        width:300px;
+                        margin:10px;
+                            div{
+                                margin-top:10px;
+                                margin-right:20px;
+                                float:left;
+                                .radio{
+                                    width:20px;
+                                    height:20px;
+                                    background:url(../images/radios_yellow.png) no-repeat -63px -7px;
+                                    margin-right:5px;
+                                }
+                                label{
+                                    float:left;
+                                    margin-top:10px;
+                                    color:#fff;
+                                }
+                            }
+                            .active{
+                                .radio{
+                                    background:url(../images/radios_yellow.png) no-repeat -14px -7px;
+                                }
+                            }
+                        }
+                    .left-bottom{
+                        margin: 15px 10px;
+                        div{
+                            float: left;
+                            margin-top:15px;
+                            background: rgba(255, 255, 255, 0.2);
+                            width:100%;
+                            height:40px;
+                            box-sizing:border-box;
+                            border:1px solid transparent;
+                            border-radius: 20px;
+                            i{
+                                float: left;
+                                width:36px;
+                                display: inline-block;
+                                height:40px;
+                                background:url('../images/icons-s629bad6460.png');
+                                
+                            }
+                            input{
+                                
+                                margin-left:10px;
+                                float: left;
+                                width:128px;
+                                height:40px;
+                                border:0;
+                                background:transparent;
+                                outline: none;
+                                font-size: 14px;
+                                font-family: Microsoft yahei;
+                                font-weight: 100;
                                 color:#fff;
-                                text-align: center;
+
+                            }
+                            input::-webkit-input-placeholder{
+                                color:#fff;
+                            }
+                            .start{
+                                background-position: 0 -2300px;
+                            }
+                            .end{
+                                background-position: 0 -1950px;
+                            }
+                            .twoWay{
+                                background-position: 0 -300px;
+                                float: right;
+                            }
+                            .go-time{
+                                background-position:0 -2450px;
+                            }
+                            .seat{
+                                background-position: 0 -2250px;
+                            }
+                            .btndown{
+                                background:url("../images/newdownbtn.png") no-repeat;
+                                background-position: 0 4px;
+                                float: right;
+                            }
+                            .num{
+                                background-position: 0 -2050px;
                             }
                         }
-
+                        .person-3{
+                            width:40%;
+                            label{
+                                float:left;
+                                margin:10px;
+                                color: #fff;
+                                font-style: normal;
+                            }
+                            span{
+                                float:left;
+                                display: inline-block;
+                                width:28px;
+                                height:28px;    
+                                background: url("../images/newregulation-controll-white.png");
+                            }
+                            .person-add{
+                                margin-left:30px;
+                                margin-top:5px;
+                                border-top-left-radius: 14px;
+                                border-bottom-left-radius: 14px;
+                                background-position: 0 0;
+                            }
+                            .person-minus{
+                                margin-right:2px;
+                                margin-top:5px;
+                                border-top-right-radius: 14px;
+                                border-bottom-right-radius: 14px;
+                                background-position: -26px 0px;
+                            }
+                        }
+                        .person-0{
+                            width:40%;
+                            margin-left: 19%;
+                            label{
+                                float:left;
+                                margin:10px;
+                                color: #fff;
+                                font-style: normal;
+                            }
+                            .child{
+                                background-position: 0 -2690px;
+                            }
+                            span{
+                                float:left;
+                                display: inline-block;
+                                width:28px;
+                                height:28px;    
+                                background: url("../images/newregulation-controll-white.png");
+                            }
+                            .person-add{
+                                margin-left:30px;
+                                margin-top:5px;
+                                border-top-left-radius: 14px;
+                                border-bottom-left-radius: 14px;
+                                background-position: 0 0;
+                            }
+                            .person-minus{
+                                margin-right:2px;
+                                margin-top:5px;
+                                border-top-right-radius: 14px;
+                                border-bottom-right-radius: 14px;
+                                background-position: -26px 0px;
+                            }
+                        }   
+                        .input-btn{
+                            width:60%;
+                            margin:30px 0 30px 20%;
+                            height:38px;
+                            border-radius:19px;
+                            background:#f98c03;
+                            border:1px solid #f98c03;
+                            color:#fff;
+                            font-size:16px;
+                            font-weight: 700;
+                            outline: none;
+                        }               
                     }
-                    .price{
+                } 
+            }
+            .pc-span3{
+                float:right;
+                h1{
+                    font-size: 39px;
+                    color:#fff;
+                    font-style: normal;
+                    margin:60px 10px;
+                    text-shadow: 0 0 150px #fff;
+                }
+            }
+            .sale{
+                width:100%;
+                margin-top: 20px;
+                .title{
+                    text-align: center; 
+                    h3{
+                        height:60px;
+                        padding:16px 0;
+                        border-radius:5px 5px 0 0; 
+                        background: rgba(26, 117, 188, 0.81);
                         color:#fff;
-                        font-size: 25px;
-                        position:relative;
-                        top:15px;
-                        left:30%;
-                        font-weight: 700;
-                    }
-                    .price:after{
-                        content: "CNY";
-                        font-size: 8px;
-                        position: relative;
+                        font-size:18px;
                         font-weight: 100;
-                        left: 10px;
-                        top:-10px;
-                    }
-                    .addr, .stime{
-                        text-align: center;
-                        color:#fff;
-                        font-size: 14px;
-                        margin-top: 25px;
-                    }
-                    .stime{
-                        margin-top:5px;
-                    }
-                     .overplus{
-                        margin-top: 18px;
-                        padding-top:10px;
-                        display: block;
-                        color:#fff;
-                        font-size: 14px;
-                        border-top:1px solid #fff;
-                        .overplus-n{
-                            font-size: 25px;
-                            font-weight: 700;
-                            font-style: normal;
+                        a{
+                            font-size: 14px;
+                            color: #fff;
+                            float: right;
+                            text-decoration: none;
+                            margin-right:10px;
+                            margin-top:5px;
                         }
                     }
                 }
-            }
-        }
-        .roll{
-            margin-top:50px;
-            width:100%;
-            border-radius: 5px;
-            .roll-left{
-                background: #fff;
-                box-shadow: 0 3px 0px #e3e4e8;
-                float:left;
-                width: 57%;
-                .photo{
-                    height: 250px;
-                }
-                .photo-bottom{
+                .salelist{
                     width:100%;
-                    padding:9px;
-                    height:60px;
-                    background: #ccc;
-               }
-            }
-            .roll-right{
-                box-shadow: 0 3px 0px #e3e4e8;
-                padding: 6px;
-                width:38%;
-                float: right;
-                background: #fff;
-                height:310px;
-                border-radius: 5px 5px 0 0 ;
-                table{
-                    width:100%;
-                    border-bottom:1px solid #e1e1e1;
-                    tr{
-                        td{
-                            text-align: center;
-                            padding: 14px 0;
-                            font-weight: 700;
-                            width: 33.333333%;
-                            vertical-align: bottom;
+                    height: 260px;
+                    background-color: #1a77be;
+                    background-image: linear-gradient(to bottom, #1a77be 0%, #135695 100%);
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    div{
+                        width: 166.656px;
+                        height: 257px;
+                        padding: 45px 20px;
+                        float:left;
+                        overflow: hidden;
+                        span{
+                            width:31%;
+                            height: 50px;
+                            float: left;
+                            margin:0;
+                            border-radius: 3px;
+                            background: #fff;
                         }
+                        .mid{
+                            margin:0 3px;
+                        }
+                        table{
+                            width: 100%;
+                            height: 25px;
+                             border-bottom:1px solid #4582bb;
+                            tr{
+                                width: 100%;
+                                td{
+                                    width:33%;
+                                    color:#5792c9;
+                                    text-align: center;
+                                }
+                            }
 
-                        td:first-child{
-                            color:#2f2f2f;
-                        }
-                        .time{
-                            font-size: 12px;
-                             font-family: initial;
                         }
                         .price{
-
+                            color:#ff9600;
+                            font-size: 25px;
+                            position:relative;
+                            top:15px;
+                            left:30%;
+                            font-weight: 700;
                         }
                         .price:after{
                             content: "CNY";
                             font-size: 8px;
-                            position:relative;
-                            top:-5px;
-                            left:5px;
-                            font-weight: 700;
-                            font-family: SimHei;
-                           
-                         }
+                            position: relative;
+                            font-weight: 100;
+                            left: 10px;
+                            top:-10px;
+                        }
+                        .addr, .stime{
+                            text-align: center;
+                            color:#ff9600;
+                            font-size: 14px;
+                            margin-top: 25px;
+                        }
+                        .stime{
+                            margin-top:5px;
+                        }
+                        .overplus{
+                            display: none;
+                        }
                     }
-                    tr:hover{
-                        border-radius: 5px;
-                        background: #f0f1f2;
-                    }
-                }
-                i{
-                    width:36px;
-                    display: inline-block;
-                    height:40px;
-                    margin-left: 2px;
-                    background:url('../images/icons-s629bad6460.png');    
-                    }
-                div{
-                    float:left;
-                    width:278px;
-                    height: 40px;
-                    border-radius: 20px;
-                    background: #f8f8f8;
-                    margin-top:10px;
-                    box-shadow: 0 1px 3px #CACACA inset;
+                    div:hover{
+                        width: 166.656px;
+                        height: 290px;
+                        padding: 45px 20px;
+                        float:left;
+                        background: #ff9600;
+                        border-radius: 0 0 5px 5px;
+                        table{
+                            width: 100%;
+                            height: 25px;
+                             border-bottom:1px solid #fff;
+                            tr{
+                                width: 100%;
+                                td{
+                                    width:33%;
+                                    color:#fff;
+                                    text-align: center;
+                                }
+                            }
 
-                    .start{
-                        float: left;
-                        background-position: 0 -2300px;
+                        }
+                        .price{
+                            color:#fff;
+                            font-size: 25px;
+                            position:relative;
+                            top:15px;
+                            left:30%;
+                            font-weight: 700;
+                        }
+                        .price:after{
+                            content: "CNY";
+                            font-size: 8px;
+                            position: relative;
+                            font-weight: 100;
+                            left: 10px;
+                            top:-10px;
+                        }
+                        .addr, .stime{
+                            text-align: center;
+                            color:#fff;
+                            font-size: 14px;
+                            margin-top: 25px;
+                        }
+                        .stime{
+                            margin-top:5px;
+                        }
+                         .overplus{
+                            margin-top: 18px;
+                            padding-top:10px;
+                            display: block;
+                            color:#fff;
+                            font-size: 14px;
+                            border-top:1px solid #fff;
+                            .overplus-n{
+                                font-size: 25px;
+                                font-weight: 700;
+                                font-style: normal;
+                            }
+                        }
                     }
-                    input{
-                        width:200px;
+                }
+            }
+            .roll{
+                margin-top:50px;
+                width:100%;
+                border-radius: 5px;
+                .roll-left{
+                    background: #fff;
+                    box-shadow: 0 3px 0px #e3e4e8;
+                    float:left;
+                    width: 57%;
+                    .photo{
+                        height: 250px;
+                    }
+                    .photo-bottom{
+                        width:100%;
+                        padding:9px;
+                        height:60px;
+                        background: #ccc;
+                   }
+                }
+                .roll-right{
+                    box-shadow: 0 3px 0px #e3e4e8;
+                    padding: 6px;
+                    width:38%;
+                    float: right;
+                    background: #fff;
+                    height:310px;
+                    border-radius: 5px 5px 0 0 ;
+                    table{
+                        width:100%;
+                        border-bottom:1px solid #e1e1e1;
+                        tr{
+                            td{
+                                text-align: center;
+                                padding: 14px 0;
+                                font-weight: 700;
+                                width: 33.333333%;
+                                vertical-align: bottom;
+                            }
+
+                            td:first-child{
+                                color:#2f2f2f;
+                            }
+                            .time{
+                                font-size: 12px;
+                                 font-family: initial;
+                            }
+                            .price{
+
+                            }
+                            .price:after{
+                                content: "CNY";
+                                font-size: 8px;
+                                position:relative;
+                                top:-5px;
+                                left:5px;
+                                font-weight: 700;
+                                font-family: SimHei;
+                               
+                             }
+                        }
+                        tr:hover{
+                            border-radius: 5px;
+                            background: #f0f1f2;
+                        }
+                    }
+                    i{
+                        width:36px;
+                        display: inline-block;
+                        height:40px;
+                        margin-left: 2px;
+                        background:url('../images/icons-s629bad6460.png');    
+                        }
+                    div{
+                        float:left;
+                        width:278px;
                         height: 40px;
-                        border:none;
-                        outline: none;
-                        background: transparent;
-                        padding-left:10px;
-                        font-size: 16px;
+                        border-radius: 20px;
+                        background: #f8f8f8;
+                        margin-top:10px;
+                        box-shadow: 0 1px 3px #CACACA inset;
+
+                        .start{
+                            float: left;
+                            background-position: 0 -2300px;
+                        }
+                        input{
+                            width:200px;
+                            height: 40px;
+                            border:none;
+                            outline: none;
+                            background: transparent;
+                            padding-left:10px;
+                            font-size: 16px;
+                        }
+                    }
+                    .sub,a{
+                        width:36px;
+                        display: inline-block;
+                        height:40px;
+                        float: left;
+                        background-color:transparent;
+                        border: 0;
+                        background-image: url('../images/icons-s629bad6460.png');
+                        background-repeat: no-repeat;
+                        background-position: 0 -700px;
+                        margin:7px;
+                    }
+                    a{
+                        margin:7px 0 0 0;
+                        background-position: 0 -2150px;
                     }
                 }
-                .sub,a{
-                    width:36px;
-                    display: inline-block;
-                    height:40px;
-                    float: left;
-                    background-color:transparent;
-                    border: 0;
-                    background-image: url('../images/icons-s629bad6460.png');
-                    background-repeat: no-repeat;
-                    background-position: 0 -700px;
-                    margin:7px;
-                }
+           }
+           .container-nei{
+                position: relative;
+                top: 350px;
+                margin-top: 30px;
+                width: 100%;
+                height:208px;
+                border-radius: 5px;
+                background-image: url("../images/20150616112713_nd5iibhku5.png");
+           }
+           .img-list{
+                position: relative;
+                top:290px;
                 a{
-                    margin:7px 0 0 0;
-                    background-position: 0 -2150px;
+                    float: left;
+                    img{
+                        display: block;
+                        margin:0 4px;
+                    }
+                    .list-start{
+                        margin:0 4px 0 0;
+                    }
+                    .list-end{
+                        margin:0 0 0 4px;
+                    }
+                    .next{
+                        display: none;
+                    }
+                   
+                }
+           }
+    }	
+   
+  }
+   .foot{
+        position: relative;
+        top:340px;   
+        width:100%;
+        background: #fff;
+        padding:69px 0;
+        .container-foot{
+            width:1000px;
+            margin:0 auto;
+            background: #fff;
+            .foot-left{
+                float:left;
+                width:600px;
+                border-right:1px solid #e3e4e5;
+                .foot-top{
+                    .foot-logo{
+                        height: 64px;
+                        background: url(../images/logo-footer.png) no-repeat -8px -7px;
+                    }
+                     .telNum{
+                        position: relative;
+                        top: -65px;
+                        left: 250px;
+                    }
+                    .sina{
+                        position: relative;
+                        left:350px;
+                        top:-75px;
+                    }
+                    .tencent-weibo{
+                        position: relative;
+                        top: -75px;
+                        left: 370px;
+                    }
+                } 
+                table{
+                    thead{
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: #8f8f8f;
+                        td{
+                            width:150px;
+                            padding-bottom: 22px;  
+                        }
+                    }
+                    tbody{
+                        td{
+                            padding-bottom: 6px;
+                            a{
+                                color:#878787;
+                                text-decoration: none;
+                            }
+                            a:hover{
+                                color:#2b4965;
+                            }
+                        }
+                    }
+                } 
+            }
+            .foot-right{
+                .foot-rl{
+                    padding-left: 55px;
+                    float:left;
+                    text-align: center;
+                    h4{
+                        color: #ff8e00;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                    }
+                    p{
+                        margin-bottom: 14px;
+                        color: #ff8e00;
+                    }
+                }
+                .foot-rr{
+                    padding-left: 45px;
+                    float:right;
+                    text-align: center;
+                    h4{
+                        color: #7ab60a;
+                        font-weight: 700;
+                        margin-bottom: 10px;
+                        font-size: 20px;
+                    }
+                    p{  
+                        margin-bottom: 14px;
+                        color: #7ab60a;
+                    }
+                }
+                .input-l{
+                    margin-left: 55px;
+                    margin-top:40px;
+                    padding-left: 8px;
+                    width: 262px;
+                    height: 40px;
+                    border-radius: 4px;
+                    border: 2px solid #e3e4e8;
+                    color: #2f2f2f;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: 'microsoft yahei';
+                }
+                .btn-foot{
+                    position: relative;
+                    left: -6px;
+                    top: -1px;
+                    color: #fff;
+                    background: #155b9c;
+                    margin:0px;
+                    width: 75px;
+                    height:40px;
+                    border:1px solid #155b9c;
+                    border-radius: 4px;
                 }
             }
-	   }
-       .container{
-            position: relative;
-            top: 350px;
-            margin-top: 30px;
-            width: 100%;
-            height:208px;
-            border-radius: 5px;
-            background-image: url("../images/20150616112713_nd5iibhku5.png");
-       }
-       .img-list{
-            position: relative;
-            top:290px;
-            a{
-                float: left;
-                img{
-                    display: block;
-                    margin:0 4px;
-                }
-                .list-start{
-                    margin:0 4px 0 0;
-                }
-                .list-end{
-                    margin:0 0 0 4px;
-                }
-                .next{
-                    display: none;
-                }
-               
+        }
+        .foot-bottom{
+            width: 1000px;
+            margin:0 auto;
+            padding-top: 50px;
+            padding-left:20%;
+            height:90px;
+            .bt{
+                padding-left: 130px;
+                width: 300px;
             }
-       }
+            p{
+                color: #497eb2;
+                font-size: 12px;
+                width: 300px;
+            }
+            img{
+                position: relative;
+                left:260px;
+                top:-35px;
+            }
+        }
     }
 }

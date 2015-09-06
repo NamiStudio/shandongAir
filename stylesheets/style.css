@@ -22,50 +22,50 @@ body .clearfix:before, body .clearfix:after {
   clear: both;
   content: " ";
 }
-/* line 21, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 body .main-bg {
   width: 100%;
   background: url("../images/main-bg.jpg") no-repeat top center;
 }
-/* line 24, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 body .main-bg header {
   width: 1000px;
   margin: 0 auto;
 }
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 body .main-bg header img {
   float: left;
 }
-/* line 30, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 body .main-bg header ul {
   float: left;
   line-height: 70px;
   text-align: center;
   padding-left: 12px;
 }
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 body .main-bg header ul li {
   list-style: none;
   float: left;
   vertical-align: middle;
   padding: 0px 15px 0px 13px;
 }
-/* line 40, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 body .main-bg header ul li a {
   font-size: 15px;
   color: #092d4f;
   text-decoration: none;
 }
-/* line 45, ../sass/style.scss */
+/* line 44, ../sass/style.scss */
 body .main-bg header ul li a:hover {
   color: #ff8e00;
 }
-/* line 51, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 body .main-bg header .transport_num {
   float: left;
   margin-top: 8px;
 }
-/* line 55, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 body .main-bg header .search {
   float: left;
   background: #00457b;
@@ -75,7 +75,7 @@ body .main-bg header .search {
   border-radius: 17px;
   padding-left: 17px;
 }
-/* line 63, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 body .main-bg header .search input {
   width: 60px;
   height: 32px;
@@ -86,13 +86,13 @@ body .main-bg header .search input {
   font-family: "Microsoft yahei";
   color: #999;
 }
-/* line 73, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 body .main-bg header .search img {
   margin-top: 7px;
   margin-right: 7px;
   float: right;
 }
-/* line 79, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 body .main-bg header .country {
   float: left;
   background: #00457b;
@@ -103,7 +103,7 @@ body .main-bg header .country {
   color: #ff8e00;
   padding: 7px 10px;
 }
-/* line 89, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 body .main-bg header .tel {
   float: left;
   width: 34px;
@@ -112,7 +112,7 @@ body .main-bg header .tel {
   border-radius: 17px;
   background-image: url(../images/headset.png);
 }
-/* line 97, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 body .main-bg header .person {
   float: left;
   width: 34px;
@@ -124,36 +124,36 @@ body .main-bg header .person {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 110, ../sass/style.scss */
-body .container {
+/* line 107, ../sass/style.scss */
+body .main-bg .container {
   width: 1000px;
   margin: 0 auto;
   margin-top: 50px;
 }
-/* line 114, ../sass/style.scss */
-body .container .left-container {
+/* line 111, ../sass/style.scss */
+body .main-bg .container .left-container {
   width: 41.66667%;
   height: 550px;
   float: left;
   margin-bottom: 30px;
 }
-/* line 119, ../sass/style.scss */
-body .container .left-container .pc-span5 {
+/* line 116, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 {
   width: 100%;
   border-radius: 5px;
   background-image: url(../images/main-bg-mask.png);
 }
-/* line 123, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top {
+/* line 120, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top {
   border-radius: 2px;
 }
-/* line 126, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top ul {
+/* line 122, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top ul {
   height: 40px;
   padding: 0 19px;
 }
-/* line 129, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top ul li {
+/* line 125, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top ul li {
   float: left;
   width: 33.33333%;
   list-style: none;
@@ -163,52 +163,52 @@ body .container .left-container .pc-span5 .left-top ul li {
   padding: 10px 35px;
   color: #96b4d0;
 }
-/* line 139, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top ul .book {
+/* line 135, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top ul .book {
   background-position: 0 0;
 }
-/* line 142, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top ul .online {
+/* line 138, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top ul .online {
   background-position: -130px -1px;
 }
-/* line 145, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-top ul .airnews {
+/* line 141, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-top ul .airnews {
   background-position: -260px 0px;
 }
-/* line 150, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-middle {
+/* line 146, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-middle {
   width: 300px;
   margin: 10px;
 }
-/* line 153, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-middle div {
+/* line 149, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-middle div {
   margin-top: 10px;
   margin-right: 20px;
   float: left;
 }
-/* line 157, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-middle div .radio {
+/* line 153, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-middle div .radio {
   width: 20px;
   height: 20px;
   background: url(../images/radios_yellow.png) no-repeat -63px -7px;
   margin-right: 5px;
 }
-/* line 163, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-middle div label {
+/* line 159, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-middle div label {
   float: left;
   margin-top: 10px;
   color: #fff;
 }
-/* line 170, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-middle .active .radio {
+/* line 166, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-middle .active .radio {
   background: url(../images/radios_yellow.png) no-repeat -14px -7px;
 }
-/* line 175, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom {
+/* line 171, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom {
   margin: 15px 10px;
 }
-/* line 177, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div {
+/* line 173, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div {
   float: left;
   margin-top: 15px;
   background: rgba(255, 255, 255, 0.2);
@@ -218,16 +218,16 @@ body .container .left-container .pc-span5 .left-bottom div {
   border: 1px solid transparent;
   border-radius: 20px;
 }
-/* line 186, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div i {
+/* line 182, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div i {
   float: left;
   width: 36px;
   display: inline-block;
   height: 40px;
   background: url("../images/icons-s629bad6460.png");
 }
-/* line 194, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div input {
+/* line 190, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div input {
   margin-left: 10px;
   float: left;
   width: 128px;
@@ -240,118 +240,118 @@ body .container .left-container .pc-span5 .left-bottom div input {
   font-weight: 100;
   color: #fff;
 }
-/* line 209, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div input::-webkit-input-placeholder {
+/* line 205, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div input::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 212, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .start {
+/* line 208, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .start {
   background-position: 0 -2300px;
 }
-/* line 215, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .end {
+/* line 211, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .end {
   background-position: 0 -1950px;
 }
-/* line 218, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .twoWay {
+/* line 214, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .twoWay {
   background-position: 0 -300px;
   float: right;
 }
-/* line 222, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .go-time {
+/* line 218, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .go-time {
   background-position: 0 -2450px;
 }
-/* line 225, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .seat {
+/* line 221, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .seat {
   background-position: 0 -2250px;
 }
-/* line 228, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .btndown {
+/* line 224, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .btndown {
   background: url("../images/newdownbtn.png") no-repeat;
   background-position: 0 4px;
   float: right;
 }
-/* line 233, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom div .num {
+/* line 229, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom div .num {
   background-position: 0 -2050px;
 }
-/* line 237, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-3 {
+/* line 233, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-3 {
   width: 40%;
 }
-/* line 239, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-3 label {
+/* line 235, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-3 label {
   float: left;
   margin: 10px;
   color: #fff;
   font-style: normal;
 }
-/* line 245, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-3 span {
+/* line 241, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-3 span {
   float: left;
   display: inline-block;
   width: 28px;
   height: 28px;
   background: url("../images/newregulation-controll-white.png");
 }
-/* line 252, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-3 .person-add {
+/* line 248, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-3 .person-add {
   margin-left: 30px;
   margin-top: 5px;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
   background-position: 0 0;
 }
-/* line 259, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-3 .person-minus {
+/* line 255, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-3 .person-minus {
   margin-right: 2px;
   margin-top: 5px;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
   background-position: -26px 0px;
 }
-/* line 267, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 {
+/* line 263, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 {
   width: 40%;
   margin-left: 19%;
 }
-/* line 270, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 label {
+/* line 266, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 label {
   float: left;
   margin: 10px;
   color: #fff;
   font-style: normal;
 }
-/* line 276, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 .child {
+/* line 272, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 .child {
   background-position: 0 -2690px;
 }
-/* line 279, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 span {
+/* line 275, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 span {
   float: left;
   display: inline-block;
   width: 28px;
   height: 28px;
   background: url("../images/newregulation-controll-white.png");
 }
-/* line 286, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 .person-add {
+/* line 282, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 .person-add {
   margin-left: 30px;
   margin-top: 5px;
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
   background-position: 0 0;
 }
-/* line 293, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .person-0 .person-minus {
+/* line 289, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .person-0 .person-minus {
   margin-right: 2px;
   margin-top: 5px;
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
   background-position: -26px 0px;
 }
-/* line 301, ../sass/style.scss */
-body .container .left-container .pc-span5 .left-bottom .input-btn {
+/* line 297, ../sass/style.scss */
+body .main-bg .container .left-container .pc-span5 .left-bottom .input-btn {
   width: 60%;
   margin: 30px 0 30px 20%;
   height: 38px;
@@ -363,29 +363,29 @@ body .container .left-container .pc-span5 .left-bottom .input-btn {
   font-weight: 700;
   outline: none;
 }
-/* line 316, ../sass/style.scss */
-body .container .pc-span3 {
+/* line 312, ../sass/style.scss */
+body .main-bg .container .pc-span3 {
   float: right;
 }
-/* line 318, ../sass/style.scss */
-body .container .pc-span3 h1 {
+/* line 314, ../sass/style.scss */
+body .main-bg .container .pc-span3 h1 {
   font-size: 39px;
   color: #fff;
   font-style: normal;
   margin: 60px 10px;
   text-shadow: 0 0 150px #fff;
 }
-/* line 326, ../sass/style.scss */
-body .container .sale {
+/* line 322, ../sass/style.scss */
+body .main-bg .container .sale {
   width: 100%;
   margin-top: 20px;
 }
-/* line 329, ../sass/style.scss */
-body .container .sale .title {
+/* line 325, ../sass/style.scss */
+body .main-bg .container .sale .title {
   text-align: center;
 }
-/* line 331, ../sass/style.scss */
-body .container .sale .title h3 {
+/* line 327, ../sass/style.scss */
+body .main-bg .container .sale .title h3 {
   height: 60px;
   padding: 16px 0;
   border-radius: 5px 5px 0 0;
@@ -394,8 +394,8 @@ body .container .sale .title h3 {
   font-size: 18px;
   font-weight: 100;
 }
-/* line 339, ../sass/style.scss */
-body .container .sale .title h3 a {
+/* line 335, ../sass/style.scss */
+body .main-bg .container .sale .title h3 a {
   font-size: 14px;
   color: #fff;
   float: right;
@@ -403,8 +403,8 @@ body .container .sale .title h3 a {
   margin-right: 10px;
   margin-top: 5px;
 }
-/* line 349, ../sass/style.scss */
-body .container .sale .salelist {
+/* line 345, ../sass/style.scss */
+body .main-bg .container .sale .salelist {
   width: 100%;
   height: 260px;
   background-color: #1a77be;
@@ -412,16 +412,16 @@ body .container .sale .salelist {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-/* line 356, ../sass/style.scss */
-body .container .sale .salelist div {
+/* line 352, ../sass/style.scss */
+body .main-bg .container .sale .salelist div {
   width: 166.656px;
   height: 257px;
   padding: 45px 20px;
   float: left;
   overflow: hidden;
 }
-/* line 362, ../sass/style.scss */
-body .container .sale .salelist div span {
+/* line 358, ../sass/style.scss */
+body .main-bg .container .sale .salelist div span {
   width: 31%;
   height: 50px;
   float: left;
@@ -429,28 +429,28 @@ body .container .sale .salelist div span {
   border-radius: 3px;
   background: #fff;
 }
-/* line 370, ../sass/style.scss */
-body .container .sale .salelist div .mid {
+/* line 366, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .mid {
   margin: 0 3px;
 }
-/* line 373, ../sass/style.scss */
-body .container .sale .salelist div table {
+/* line 369, ../sass/style.scss */
+body .main-bg .container .sale .salelist div table {
   width: 100%;
   height: 25px;
   border-bottom: 1px solid #4582bb;
 }
-/* line 377, ../sass/style.scss */
-body .container .sale .salelist div table tr {
+/* line 373, ../sass/style.scss */
+body .main-bg .container .sale .salelist div table tr {
   width: 100%;
 }
-/* line 379, ../sass/style.scss */
-body .container .sale .salelist div table tr td {
+/* line 375, ../sass/style.scss */
+body .main-bg .container .sale .salelist div table tr td {
   width: 33%;
   color: #5792c9;
   text-align: center;
 }
-/* line 387, ../sass/style.scss */
-body .container .sale .salelist div .price {
+/* line 383, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .price {
   color: #ff9600;
   font-size: 25px;
   position: relative;
@@ -458,8 +458,8 @@ body .container .sale .salelist div .price {
   left: 30%;
   font-weight: 700;
 }
-/* line 395, ../sass/style.scss */
-body .container .sale .salelist div .price:after {
+/* line 391, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .price:after {
   content: "CNY";
   font-size: 8px;
   position: relative;
@@ -467,23 +467,23 @@ body .container .sale .salelist div .price:after {
   left: 10px;
   top: -10px;
 }
-/* line 403, ../sass/style.scss */
-body .container .sale .salelist div .addr, body .container .sale .salelist div .stime {
+/* line 399, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .addr, body .main-bg .container .sale .salelist div .stime {
   text-align: center;
   color: #ff9600;
   font-size: 14px;
   margin-top: 25px;
 }
-/* line 409, ../sass/style.scss */
-body .container .sale .salelist div .stime {
+/* line 405, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .stime {
   margin-top: 5px;
 }
-/* line 412, ../sass/style.scss */
-body .container .sale .salelist div .overplus {
+/* line 408, ../sass/style.scss */
+body .main-bg .container .sale .salelist div .overplus {
   display: none;
 }
-/* line 416, ../sass/style.scss */
-body .container .sale .salelist div:hover {
+/* line 412, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover {
   width: 166.656px;
   height: 290px;
   padding: 45px 20px;
@@ -491,24 +491,24 @@ body .container .sale .salelist div:hover {
   background: #ff9600;
   border-radius: 0 0 5px 5px;
 }
-/* line 423, ../sass/style.scss */
-body .container .sale .salelist div:hover table {
+/* line 419, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover table {
   width: 100%;
   height: 25px;
   border-bottom: 1px solid #fff;
 }
-/* line 427, ../sass/style.scss */
-body .container .sale .salelist div:hover table tr {
+/* line 423, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover table tr {
   width: 100%;
 }
-/* line 429, ../sass/style.scss */
-body .container .sale .salelist div:hover table tr td {
+/* line 425, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover table tr td {
   width: 33%;
   color: #fff;
   text-align: center;
 }
-/* line 437, ../sass/style.scss */
-body .container .sale .salelist div:hover .price {
+/* line 433, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .price {
   color: #fff;
   font-size: 25px;
   position: relative;
@@ -516,8 +516,8 @@ body .container .sale .salelist div:hover .price {
   left: 30%;
   font-weight: 700;
 }
-/* line 445, ../sass/style.scss */
-body .container .sale .salelist div:hover .price:after {
+/* line 441, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .price:after {
   content: "CNY";
   font-size: 8px;
   position: relative;
@@ -525,19 +525,19 @@ body .container .sale .salelist div:hover .price:after {
   left: 10px;
   top: -10px;
 }
-/* line 453, ../sass/style.scss */
-body .container .sale .salelist div:hover .addr, body .container .sale .salelist div:hover .stime {
+/* line 449, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .addr, body .main-bg .container .sale .salelist div:hover .stime {
   text-align: center;
   color: #fff;
   font-size: 14px;
   margin-top: 25px;
 }
-/* line 459, ../sass/style.scss */
-body .container .sale .salelist div:hover .stime {
+/* line 455, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .stime {
   margin-top: 5px;
 }
-/* line 462, ../sass/style.scss */
-body .container .sale .salelist div:hover .overplus {
+/* line 458, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .overplus {
   margin-top: 18px;
   padding-top: 10px;
   display: block;
@@ -545,38 +545,38 @@ body .container .sale .salelist div:hover .overplus {
   font-size: 14px;
   border-top: 1px solid #fff;
 }
-/* line 469, ../sass/style.scss */
-body .container .sale .salelist div:hover .overplus .overplus-n {
+/* line 465, ../sass/style.scss */
+body .main-bg .container .sale .salelist div:hover .overplus .overplus-n {
   font-size: 25px;
   font-weight: 700;
   font-style: normal;
 }
-/* line 478, ../sass/style.scss */
-body .container .roll {
+/* line 474, ../sass/style.scss */
+body .main-bg .container .roll {
   margin-top: 50px;
   width: 100%;
   border-radius: 5px;
 }
-/* line 482, ../sass/style.scss */
-body .container .roll .roll-left {
+/* line 478, ../sass/style.scss */
+body .main-bg .container .roll .roll-left {
   background: #fff;
   box-shadow: 0 3px 0px #e3e4e8;
   float: left;
   width: 57%;
 }
-/* line 487, ../sass/style.scss */
-body .container .roll .roll-left .photo {
+/* line 483, ../sass/style.scss */
+body .main-bg .container .roll .roll-left .photo {
   height: 250px;
 }
-/* line 490, ../sass/style.scss */
-body .container .roll .roll-left .photo-bottom {
+/* line 486, ../sass/style.scss */
+body .main-bg .container .roll .roll-left .photo-bottom {
   width: 100%;
   padding: 9px;
   height: 60px;
   background: #ccc;
 }
-/* line 497, ../sass/style.scss */
-body .container .roll .roll-right {
+/* line 493, ../sass/style.scss */
+body .main-bg .container .roll .roll-right {
   box-shadow: 0 3px 0px #e3e4e8;
   padding: 6px;
   width: 38%;
@@ -585,30 +585,30 @@ body .container .roll .roll-right {
   height: 310px;
   border-radius: 5px 5px 0 0;
 }
-/* line 505, ../sass/style.scss */
-body .container .roll .roll-right table {
+/* line 501, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table {
   width: 100%;
   border-bottom: 1px solid #e1e1e1;
 }
-/* line 509, ../sass/style.scss */
-body .container .roll .roll-right table tr td {
+/* line 505, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table tr td {
   text-align: center;
   padding: 14px 0;
   font-weight: 700;
   width: 33.333333%;
   vertical-align: bottom;
 }
-/* line 517, ../sass/style.scss */
-body .container .roll .roll-right table tr td:first-child {
+/* line 513, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table tr td:first-child {
   color: #2f2f2f;
 }
-/* line 520, ../sass/style.scss */
-body .container .roll .roll-right table tr .time {
+/* line 516, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table tr .time {
   font-size: 12px;
   font-family: initial;
 }
-/* line 527, ../sass/style.scss */
-body .container .roll .roll-right table tr .price:after {
+/* line 523, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table tr .price:after {
   content: "CNY";
   font-size: 8px;
   position: relative;
@@ -617,21 +617,21 @@ body .container .roll .roll-right table tr .price:after {
   font-weight: 700;
   font-family: SimHei;
 }
-/* line 538, ../sass/style.scss */
-body .container .roll .roll-right table tr:hover {
+/* line 534, ../sass/style.scss */
+body .main-bg .container .roll .roll-right table tr:hover {
   border-radius: 5px;
   background: #f0f1f2;
 }
-/* line 543, ../sass/style.scss */
-body .container .roll .roll-right i {
+/* line 539, ../sass/style.scss */
+body .main-bg .container .roll .roll-right i {
   width: 36px;
   display: inline-block;
   height: 40px;
   margin-left: 2px;
   background: url("../images/icons-s629bad6460.png");
 }
-/* line 550, ../sass/style.scss */
-body .container .roll .roll-right div {
+/* line 546, ../sass/style.scss */
+body .main-bg .container .roll .roll-right div {
   float: left;
   width: 278px;
   height: 40px;
@@ -640,13 +640,13 @@ body .container .roll .roll-right div {
   margin-top: 10px;
   box-shadow: 0 1px 3px #CACACA inset;
 }
-/* line 559, ../sass/style.scss */
-body .container .roll .roll-right div .start {
+/* line 555, ../sass/style.scss */
+body .main-bg .container .roll .roll-right div .start {
   float: left;
   background-position: 0 -2300px;
 }
-/* line 563, ../sass/style.scss */
-body .container .roll .roll-right div input {
+/* line 559, ../sass/style.scss */
+body .main-bg .container .roll .roll-right div input {
   width: 200px;
   height: 40px;
   border: none;
@@ -655,8 +655,8 @@ body .container .roll .roll-right div input {
   padding-left: 10px;
   font-size: 16px;
 }
-/* line 573, ../sass/style.scss */
-body .container .roll .roll-right .sub, body .container .roll .roll-right a {
+/* line 569, ../sass/style.scss */
+body .main-bg .container .roll .roll-right .sub, body .main-bg .container .roll .roll-right a {
   width: 36px;
   display: inline-block;
   height: 40px;
@@ -668,13 +668,13 @@ body .container .roll .roll-right .sub, body .container .roll .roll-right a {
   background-position: 0 -700px;
   margin: 7px;
 }
-/* line 585, ../sass/style.scss */
-body .container .roll .roll-right a {
+/* line 581, ../sass/style.scss */
+body .main-bg .container .roll .roll-right a {
   margin: 7px 0 0 0;
   background-position: 0 -2150px;
 }
-/* line 591, ../sass/style.scss */
-body .container .container {
+/* line 587, ../sass/style.scss */
+body .main-bg .container .container-nei {
   position: relative;
   top: 350px;
   margin-top: 30px;
@@ -683,29 +683,184 @@ body .container .container {
   border-radius: 5px;
   background-image: url("../images/20150616112713_nd5iibhku5.png");
 }
-/* line 600, ../sass/style.scss */
-body .container .img-list {
+/* line 596, ../sass/style.scss */
+body .main-bg .container .img-list {
   position: relative;
   top: 290px;
 }
-/* line 603, ../sass/style.scss */
-body .container .img-list a {
+/* line 599, ../sass/style.scss */
+body .main-bg .container .img-list a {
   float: left;
 }
-/* line 605, ../sass/style.scss */
-body .container .img-list a img {
+/* line 601, ../sass/style.scss */
+body .main-bg .container .img-list a img {
   display: block;
   margin: 0 4px;
 }
-/* line 609, ../sass/style.scss */
-body .container .img-list a .list-start {
+/* line 605, ../sass/style.scss */
+body .main-bg .container .img-list a .list-start {
   margin: 0 4px 0 0;
 }
-/* line 612, ../sass/style.scss */
-body .container .img-list a .list-end {
+/* line 608, ../sass/style.scss */
+body .main-bg .container .img-list a .list-end {
   margin: 0 0 0 4px;
 }
-/* line 615, ../sass/style.scss */
-body .container .img-list a .next {
+/* line 611, ../sass/style.scss */
+body .main-bg .container .img-list a .next {
   display: none;
+}
+/* line 620, ../sass/style.scss */
+body .foot {
+  position: relative;
+  top: 340px;
+  width: 100%;
+  background: #fff;
+  padding: 69px 0;
+}
+/* line 626, ../sass/style.scss */
+body .foot .container-foot {
+  width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+}
+/* line 630, ../sass/style.scss */
+body .foot .container-foot .foot-left {
+  float: left;
+  width: 600px;
+  border-right: 1px solid #e3e4e5;
+}
+/* line 635, ../sass/style.scss */
+body .foot .container-foot .foot-left .foot-top .foot-logo {
+  height: 64px;
+  background: url(../images/logo-footer.png) no-repeat -8px -7px;
+}
+/* line 639, ../sass/style.scss */
+body .foot .container-foot .foot-left .foot-top .telNum {
+  position: relative;
+  top: -65px;
+  left: 250px;
+}
+/* line 644, ../sass/style.scss */
+body .foot .container-foot .foot-left .foot-top .sina {
+  position: relative;
+  left: 350px;
+  top: -75px;
+}
+/* line 649, ../sass/style.scss */
+body .foot .container-foot .foot-left .foot-top .tencent-weibo {
+  position: relative;
+  top: -75px;
+  left: 370px;
+}
+/* line 656, ../sass/style.scss */
+body .foot .container-foot .foot-left table thead {
+  font-size: 18px;
+  font-weight: 700;
+  color: #8f8f8f;
+}
+/* line 660, ../sass/style.scss */
+body .foot .container-foot .foot-left table thead td {
+  width: 150px;
+  padding-bottom: 22px;
+}
+/* line 666, ../sass/style.scss */
+body .foot .container-foot .foot-left table tbody td {
+  padding-bottom: 6px;
+}
+/* line 668, ../sass/style.scss */
+body .foot .container-foot .foot-left table tbody td a {
+  color: #878787;
+  text-decoration: none;
+}
+/* line 672, ../sass/style.scss */
+body .foot .container-foot .foot-left table tbody td a:hover {
+  color: #2b4965;
+}
+/* line 680, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rl {
+  padding-left: 55px;
+  float: left;
+  text-align: center;
+}
+/* line 684, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rl h4 {
+  color: #ff8e00;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/* line 690, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rl p {
+  margin-bottom: 14px;
+  color: #ff8e00;
+}
+/* line 695, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rr {
+  padding-left: 45px;
+  float: right;
+  text-align: center;
+}
+/* line 699, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rr h4 {
+  color: #7ab60a;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+/* line 705, ../sass/style.scss */
+body .foot .container-foot .foot-right .foot-rr p {
+  margin-bottom: 14px;
+  color: #7ab60a;
+}
+/* line 710, ../sass/style.scss */
+body .foot .container-foot .foot-right .input-l {
+  margin-left: 55px;
+  margin-top: 40px;
+  padding-left: 8px;
+  width: 262px;
+  height: 40px;
+  border-radius: 4px;
+  border: 2px solid #e3e4e8;
+  color: #2f2f2f;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'microsoft yahei';
+}
+/* line 723, ../sass/style.scss */
+body .foot .container-foot .foot-right .btn-foot {
+  position: relative;
+  left: -6px;
+  top: -1px;
+  color: #fff;
+  background: #155b9c;
+  margin: 0px;
+  width: 75px;
+  height: 40px;
+  border: 1px solid #155b9c;
+  border-radius: 4px;
+}
+/* line 737, ../sass/style.scss */
+body .foot .foot-bottom {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 20%;
+  height: 90px;
+}
+/* line 743, ../sass/style.scss */
+body .foot .foot-bottom .bt {
+  padding-left: 130px;
+  width: 300px;
+}
+/* line 747, ../sass/style.scss */
+body .foot .foot-bottom p {
+  color: #497eb2;
+  font-size: 12px;
+  width: 300px;
+}
+/* line 752, ../sass/style.scss */
+body .foot .foot-bottom img {
+  position: relative;
+  left: 260px;
+  top: -35px;
 }
