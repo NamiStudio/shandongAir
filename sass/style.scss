@@ -45,6 +45,70 @@ body{
 		 					color:#ff8e00;
 		 				}
 		 		}
+                .menu-hide{
+                   // display: none;
+                    width: 100%;
+                    min-height: 200px;
+                    position: absolute;
+                    z-index: 2;
+                    left: 0;
+                    top: 70px;
+                    overflow: visible;
+                    background-color: rgba(0, 97, 169, 0.95);
+                    .hide-container{
+                        width: 800px;
+                        margin: 0 0 0 180px;
+
+                        .hide-left{
+                            max-width: 330px;
+                            margin-right: 80px;
+                            float: left;
+                            padding-top: 20px;
+                            height: 80px;
+                            margin-bottom: 20px;
+                            p{
+                                font-size: 18px;
+                                line-height: 18px;
+                                color:#70baff;
+                                text-align: left;
+                                padding-bottom: 7px;
+                            }
+                            div{
+                                border-top: 1px solid #3d86bd;
+                                position: relative;
+                                top:5px;
+                                text-align: left;
+                                a{
+                                    float: left;
+                                    font-size: 13px;
+                                    text-decoration: none;
+                                    color:#fff;
+                                    padding:0px 20px 20px 0 ;
+                                    position: relative;
+                                    top:-20px;
+                                    height:13px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                        .hide-img-plan{
+                              position: relative;
+                              left:530px;
+                              top:-130px;
+                        }
+                        .hide-img-order{
+                           position: relative;
+                           left: 350px;
+                           top:-30px;
+                        }
+                    }
+                }
+                .menu-hide-plan{
+                    height:200px;
+                }
+                .menu-hide-order{
+                    height: 255px;
+                }
 		 	}
 		 	.transport_num{
 		 		float:left;
