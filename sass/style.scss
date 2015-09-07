@@ -40,13 +40,17 @@ body{
 		 				font-size:15px;
 		 				color:#092d4f;
 		 				text-decoration:none;
+                        height:75px;
+                        padding:24px 0 0 3px;
+
 		 			}
 		 			a:hover{
 		 					color:#ff8e00;
+                            height: 80px;
 		 				}
 		 		}
                 .menu-hide{
-                   // display: none;
+                   display: none;
                     width: 100%;
                     min-height: 200px;
                     position: absolute;
@@ -89,7 +93,13 @@ body{
                                     height:13px;
                                     margin-bottom: 10px;
                                 }
+                                a:hover{
+                                    color:#ff8e00;
+                                }
                             }
+                        }
+                        .hide-sale{
+                            width: 145px;
                         }
                         .hide-img-plan{
                               position: relative;
@@ -101,6 +111,21 @@ body{
                            left: 350px;
                            top:-30px;
                         }
+                        .hide-img-holiday{
+                            position: relative;
+                            left: 250px;
+                            top: -23px;
+                        }
+                        .hide-img-vip{
+                            position: relative;
+                            left: 450px;
+                            top:-60px;
+                        }
+                        .hide-img-favorable{
+                            position: relative;
+                            top:-180px;
+                            left:600px;
+                        }
                     }
                 }
                 .menu-hide-plan{
@@ -108,6 +133,12 @@ body{
                 }
                 .menu-hide-order{
                     height: 255px;
+                }
+                .menu-hide-holiday{
+                    height: 200px;
+                }
+                .menu-hide-vip{
+                    height:230px;
                 }
 		 	}
 		 	.transport_num{
