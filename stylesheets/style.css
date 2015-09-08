@@ -154,25 +154,25 @@ body .main-bg header ul li .menu-hide .hide-container .hide-img-favorable {
   top: -180px;
   left: 600px;
 }
-/* line 129, ../sass/style.scss */
-body .main-bg header ul li .menu-hide .menu-hide-plan {
+/* line 130, ../sass/style.scss */
+body .main-bg header ul li .menu-hide-plan {
   height: 200px;
 }
-/* line 132, ../sass/style.scss */
-body .main-bg header ul li .menu-hide .menu-hide-order {
+/* line 133, ../sass/style.scss */
+body .main-bg header ul li .menu-hide-order {
   height: 255px;
 }
-/* line 135, ../sass/style.scss */
-body .main-bg header ul li .menu-hide .menu-hide-holiday {
+/* line 136, ../sass/style.scss */
+body .main-bg header ul li .menu-hide-holiday {
   height: 200px;
 }
-/* line 138, ../sass/style.scss */
-body .main-bg header ul li .menu-hide .menu-hide-vip {
+/* line 139, ../sass/style.scss */
+body .main-bg header ul li .menu-hide-vip {
   height: 230px;
 }
-/* line 141, ../sass/style.scss */
-body .main-bg header ul li .menu-hide .menu-hide-favorable {
-  height: 230px;
+/* line 142, ../sass/style.scss */
+body .main-bg header ul li .menu-hide-favorable {
+  height: 240px;
 }
 /* line 147, ../sass/style.scss */
 body .main-bg header .transport_num {
