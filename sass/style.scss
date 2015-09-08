@@ -303,6 +303,11 @@ body{
                             input::-webkit-input-placeholder{
                                 color:#fff;
                             }
+                            #retime{
+                                display: none;
+                                padding-left:15px;
+                                border-left:1px solid #0165af;
+                            }
                             .start{
                                 background-position: 0 -2300px;
                             }
