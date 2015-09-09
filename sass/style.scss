@@ -623,7 +623,7 @@ body{
                             margin:10px 40px 20px 30px;
                             background: #ff8e00;
                         }
-                        .orangebtn:hover{
+                        .orangbtn:hover{
                             background: #f98c03;
                         }
                         .bluebtn{
@@ -632,6 +632,94 @@ body{
                         }
                         .bluebtn:hover{
                             background: #155897;
+                        }
+                        span{
+                            a{
+                                color:#fff;
+                                text-decoration: none;
+                                margin:20px 30px 10px 30px;
+                            } 
+                            a:hover{
+                                color:#155897;
+                            }
+                        }
+                    }
+                    #airnews{
+                        padding:40px 0 116px 0;
+                        width: 100%;
+                        box-sizing:border-box;
+                        div{
+                            width: 50%;
+                            padding:0 20px;
+                            float:left;
+                            h5{
+                                text-align: center;
+                                color: #ced6dd;
+                                margin-bottom: 20px;
+                                font-size: 14px;
+                                font-weight: 500;
+                            }
+                            div{
+                                float: left;
+                                background: rgba(255, 255, 255, 0.2);
+                                width:100%;
+                                height:40px;
+                                box-sizing:border-box;
+                                border:1px solid transparent;
+                                border-radius: 20px;
+                                margin-bottom:15px;
+                                padding: 0 2px;
+                                i{
+                                    float: left;
+                                    width:36px;
+                                    display: inline-block;
+                                    height:40px;
+                                    background:url('../images/icons-s629bad6460.png');   
+                                }
+                                input{
+                                    margin-left:10px;
+                                    float: left;
+                                    width:60%;
+                                    height:40px;
+                                    border:0;
+                                    background:transparent;
+                                    outline: none;
+                                    font-size: 14px;
+                                    font-family: Microsoft yahei;
+                                    font-weight: 100;
+                                    color:#fff;
+                                }
+                                input::-webkit-input-placeholder{
+                                    color:#ced6dd;
+                                }
+                            }
+                        }
+                        .airnews-left{
+                            border-right:1px solid #fff;
+                            div{
+                                .start{
+                                    background-position: 0 -2300px;
+                                }
+                                .start:hover{
+                                    background-position: 0 -2350px;
+                                }
+                                .end{
+                                    background-position: 0 -1900px;
+                                }
+                                .end:hover{
+                                    background-position: 0 -1950px;
+                                }
+                            }
+                        }
+                        .airnews-right{
+                            div{
+                                .air-num{
+                                    background-position: 0 -1500px;
+                                }
+                                .air-num:hover{
+                                    background-position: 0 -1550px;
+                                }
+                            }
                         }
                     }
                 } 
