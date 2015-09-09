@@ -219,7 +219,7 @@ body{
                         border-radius:2px;
                         ul{
                             height:40px;
-                            padding:0 19px;
+                            padding:0;
                             li{
                                 float:left;
                                 width:33.33333%;
@@ -227,11 +227,17 @@ body{
                                 background-image:url(../images/home-air-order.png);
                                 background-repeat:no-repeat;
                                 height:40px;
-                                padding:10px 35px;
+                                padding:10px 8px 10px 60px;
                                 color:#96b4d0;
+                                background-color: rgba(0, 0, 0, 0.1);
                             }
+
                             .book{
-                                background-position:0 0;
+                                background-position:20px -49px;
+                                color:#fff;
+                                background-color: transparent;
+
+
                             }
                             .online{
                                 background-position:-130px -1px;
@@ -311,17 +317,32 @@ body{
                             .start{
                                 background-position: 0 -2300px;
                             }
+                            .start:hover{
+                                background-position: 0 -2350px;
+                            }
                             .end{
+                                background-position: 0 -1900px;
+                            }
+                            .end:hover{
                                 background-position: 0 -1950px;
                             }
                             .twoWay{
                                 background-position: 0 -300px;
                                 float: right;
                             }
+                            .twoWay:hover{
+                                background-position: 0 -350px;
+                            }
                             .go-time{
+                                background-position:0 -2400px;
+                            }
+                            .go-time:hover{
                                 background-position:0 -2450px;
                             }
                             .seat{
+                                background-position: 0 -2200px;
+                            }
+                            .seat:hover{
                                 background-position: 0 -2250px;
                             }
                             .btndown{
