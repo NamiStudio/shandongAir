@@ -345,13 +345,54 @@ body{
                             .seat:hover{
                                 background-position: 0 -2250px;
                             }
+                            .passenger:hover{
+                                background-position: 0 -50px;
+                            }
                             .btndown{
                                 background:url("../images/newdownbtn.png") no-repeat;
                                 background-position: 0 4px;
                                 float: right;
                             }
                             .num{
+                                background-position: 0 -2000px;
+                            }
+                            .num:hover{
                                 background-position: 0 -2050px;
+                            }
+
+                        }
+                        .infinit{
+                            label{
+                                position: relative;
+                                left:10px;
+                                top:10px;
+                                color:#fff;
+                            }
+                            ul{ 
+                                z-index:999;
+                                background: #fff;
+                                color:#155e9f;
+                                padding: 0px 37px 10px 37px;
+                                border-radius:0 0 20px 20px;
+                                list-style: none;
+                                position: absolute;
+                                top:415px;
+                                left: 185px;
+                                width:396px;
+                                li{
+                                    padding:9px;
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        .infinit-active{
+                            background: #fff;
+                            border-radius:20px 20px 0 0;
+                            label{
+                                position: relative;
+                                left:10px;
+                                top:10px;
+                                color:#155e9f;
                             }
                         }
                         .person-3{
@@ -376,12 +417,18 @@ body{
                                 border-bottom-left-radius: 14px;
                                 background-position: 0 0;
                             }
+                            .person-add:hover{
+                                background-position: 0 -31px;
+                            }
                             .person-minus{
                                 margin-right:2px;
                                 margin-top:5px;
                                 border-top-right-radius: 14px;
                                 border-bottom-right-radius: 14px;
                                 background-position: -26px 0px;
+                            }
+                            .person-minus:hover{
+                                background-position: -26px -31px;
                             }
                         }
                         .person-0{
@@ -394,7 +441,10 @@ body{
                                 font-style: normal;
                             }
                             .child{
-                                background-position: 0 -2690px;
+                                background-position: 0 -1700px;
+                            }
+                            .child:hover{
+                                background-position: 0 -1750px;
                             }
                             span{
                                 float:left;
@@ -410,12 +460,18 @@ body{
                                 border-bottom-left-radius: 14px;
                                 background-position: 0 0;
                             }
+                            .person-add:hover{
+                                background-position: 0 -31px;
+                            }
                             .person-minus{
                                 margin-right:2px;
                                 margin-top:5px;
                                 border-top-right-radius: 14px;
                                 border-bottom-right-radius: 14px;
                                 background-position: -26px 0px;
+                            }
+                            .person-minus:hover{
+                                background-position: -26px -31px;
                             }
                         }   
                         .input-btn{
