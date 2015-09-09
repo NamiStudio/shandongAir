@@ -208,66 +208,92 @@
 							<li class="airnews">航班动态</li>
 						</ul>
 					</div>
-					<div class="left-middle" >
-						<div class="active" id="domestic">
-							<div class="radio"></div>
-							<label>国内</label>
+					<div id="book"style="display:none">
+						<div class="left-middle" >
+							<div class="active" id="domestic">
+								<div class="radio"></div>
+								<label>国内</label>
+							</div>
+							<div class="" id="world">
+								<div class="radio"></div>
+								<label>国际、地区、两岸</label>
+							</div>
+							<div class="active" id="one">
+								<div class="radio"></div>
+								<label>单程</label>
+							</div>
+							<div class="" id="two">
+								<div class="radio"></div>
+								<label>往返</label>
+							</div>
 						</div>
-						<div class="" id="world">
-							<div class="radio"></div>
-							<label>国际、地区、两岸</label>
-						</div>
-						<div class="active" id="one">
-							<div class="radio"></div>
-							<label>单程</label>
-						</div>
-						<div class="" id="two">
-							<div class="radio"></div>
-							<label>往返</label>
+						<div class="left-bottom">
+							<div>
+								<i class="start"></i>
+								<input type="text" placeholder="出发地" id="departure">
+								<i class="end"></i>
+								<input type="text" placeholder="目的地"id="destination">
+								<i class="twoWay"></i>
+							</div>
+							<div>
+								<i class="go-time"></i>
+								<input type="text" placeholder="出发时间（去）"id="gotime">
+								<input type="text" placeholder="返程时间（返）"id="retime">
+							</div>
+							<div class="infinit">
+								<i class="seat"></i>
+								<label>无限制</label>
+								<i class="btndown"></i>
+								<ul>
+									<li>经济舱</li>
+									<li>头等舱</li>
+								</ul>
+							</div>
+							<div class="person-3">
+								<i class="passenger"></i>
+								<label>1</label>
+								<span class="person-add"></span>
+								<span class="person-minus"></span>					
+							</div>
+							<div class="person-0">
+								<i class="child"></i>
+								<label>0</label>
+								<span class="person-add"></span>
+								<span class="person-minus"></span>					
+							</div>
+							<div class="sale-num">
+								<i class="num"></i>
+								<input type="text" placeholder="优惠代码">
+							</div>
+							<input type="button" class="input-btn" value="查询航班">
 						</div>
 					</div>
-					<div class="left-bottom">
+					<div id="online"class="clearfix">
 						<div>
-							<i class="start"></i>
-							<input type="text" placeholder="出发地" id="departure">
-							<i class="end"></i>
-							<input type="text" placeholder="目的地"id="destination">
-							<i class="twoWay"></i>
+							<i class="name"></i>
+							<input type="text" placeholder="姓名">
 						</div>
-						<div>
-							<i class="go-time"></i>
-							<input type="text" placeholder="出发时间（去）"id="gotime">
-							<input type="text" placeholder="返程时间（返）"id="retime">
-						</div>
-						<div class="infinit">
-							<i class="seat"></i>
-							<label>无限制</label>
+						<div id="identify">
+							<i class="identify"></i>
+							<label>身份证</label>
 							<i class="btndown"></i>
 							<ul>
-								<li>经济舱</li>
-								<li>头等舱</li>
+								<li>护照</li>
 							</ul>
 						</div>
-						<div class="person-3">
-							<i class="passenger"></i>
-							<label>1</label>
-							<span class="person-add"></span>
-							<span class="person-minus"></span>					
+						<div>
+							<i class="identify-num"></i>
+							<input type="text" placeholder="证件号码">
 						</div>
-						<div class="person-0">
-							<i class="child"></i>
-							<label>0</label>
-							<span class="person-add"></span>
-							<span class="person-minus"></span>					
+						<div>
+							<i class="start"></i>
+							<input type="text" placeholder="出发地">
 						</div>
-						<div class="sale-num">
-							<i class="num"></i>
-							<input type="text" placeholder="优惠代码">
-						</div>
-						<input type="button" class="input-btn" value="查询航班">
-					</div>
-					<div id="online">
-						
+						<input type="button" class="orangbtn" value="查询值机">
+						<input type="button"class="bluebtn" value="办理值机">
+						<span>开通城市</span>
+						<span>服务协议</span>
+						<span>操作指南</span>
 					</div>
 				</div>
 			</div>			

@@ -91,15 +91,25 @@ $(document).ready(function(){
    $("#retime").bind("click",addrmust);
 
    //经济舱头等舱or无限制
-   $(".infinit").bind("click",function(){
-      var $ul=$(".infinit ul");
+   function showul(){
+      var $ul=$(this).children('ul');
       if($ul.is(":visible")){
-         $(".infinit").removeClass("infinit-active");
+         $(this).removeClass("infinit-active");
          $ul.hide();
       }else{
-         $(".infinit").addClass("infinit-active");
+         $(this).addClass("infinit-active");
          $ul.show();
       }
-   });
-
+   }
+   function changeText(){
+      var $this=$(this);
+      var $text1=$this.parent().parent().children("label").text();
+      var $text2=$this.text();
+      $this.text($text1);
+      $this.parent().parent().children('label').text($text2);
+   }
+   $(".infinit").bind("click",showul);
+   $(".infinit ul li").bind("click",changeText);
+   $("#identify").bind("click",showul);
+   $("#identify ul li").bind("click",changeText);
 });

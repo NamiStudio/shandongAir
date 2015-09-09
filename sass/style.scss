@@ -227,29 +227,42 @@ body{
                                 background-image:url(../images/home-air-order.png);
                                 background-repeat:no-repeat;
                                 height:40px;
-                                padding:10px 8px 10px 60px;
+                                padding:12px 20px;
                                 color:#96b4d0;
                                 background-color: rgba(0, 0, 0, 0.1);
+                                text-align: right;
                             }
-
                             .book{
+                                background-position: 20px 0;
+                            }
+                            .book-active,.book:hover{
                                 background-position:20px -49px;
                                 color:#fff;
                                 background-color: transparent;
-
-
                             }
                             .online{
-                                background-position:-130px -1px;
+                                background-position:-104px -1px;
+                            }
+                            .online-active,.online:hover{
+                                background-position:-104px -49px;
+                                color:#fff;
+                                background-color: transparent;
                             }
                             .airnews{
-                                background-position:-260px 0px;
+                                background-position:-234px 0px;
+                            }
+                            .airnews-active,.airnews:hover{
+                                background-position:-234px -48px;
+                                color:#fff;
+                                background-color: transparent;
                             }
                         }
                     }
-                    .left-middle{
-                        width:300px;
-                        margin:10px;
+                    
+                    #book{
+                        .left-middle{
+                            width:300px;
+                            margin:10px;
                             div{
                                 margin-top:10px;
                                 margin-right:20px;
@@ -272,27 +285,272 @@ body{
                                 }
                             }
                         }
-                    .left-bottom{
-                        margin: 15px 10px;
+                        .left-bottom{
+                            margin: 15px 10px;
+                            div{
+                                float: left;
+                                margin-top:15px;
+                                background: rgba(255, 255, 255, 0.2);
+                                width:100%;
+                                height:40px;
+                                box-sizing:border-box;
+                                border:1px solid transparent;
+                                border-radius: 20px;
+                                i{
+                                    float: left;
+                                    width:36px;
+                                    display: inline-block;
+                                    height:40px;
+                                    background:url('../images/icons-s629bad6460.png');
+                                    
+                                }
+                                input{
+                                    
+                                    margin-left:10px;
+                                    float: left;
+                                    width:128px;
+                                    height:40px;
+                                    border:0;
+                                    background:transparent;
+                                    outline: none;
+                                    font-size: 14px;
+                                    font-family: Microsoft yahei;
+                                    font-weight: 100;
+                                    color:#fff;
+
+                                }
+                                input::-webkit-input-placeholder{
+                                    color:#fff;
+                                }
+                                #retime{
+                                    display: none;
+                                    padding-left:15px;
+                                    border-left:1px solid #0165af;
+                                }
+                                .start{
+                                    background-position: 0 -2300px;
+                                }
+                                .start:hover{
+                                    background-position: 0 -2350px;
+                                }
+                                .end{
+                                    background-position: 0 -1900px;
+                                }
+                                .end:hover{
+                                    background-position: 0 -1950px;
+                                }
+                                .twoWay{
+                                    background-position: 0 -300px;
+                                    float: right;
+                                }
+                                .twoWay:hover{
+                                    background-position: 0 -350px;
+                                }
+                                .go-time{
+                                    background-position:0 -2400px;
+                                }
+                                .go-time:hover{
+                                    background-position:0 -2450px;
+                                }
+                                .seat{
+                                    background-position: 0 -2200px;
+                                }
+                                .seat:hover{
+                                    background-position: 0 -2250px;
+                                }
+                                .passenger:hover{
+                                    background-position: 0 -50px;
+                                }
+                                .btndown{
+                                    background:url("../images/newdownbtn.png") no-repeat;
+                                    background-position: 0 4px;
+                                    float: right;
+                                }
+                                .num{
+                                    background-position: 0 -2000px;
+                                }
+                                .num:hover{
+                                    background-position: 0 -2050px;
+                                }
+
+                            }
+                            .infinit{
+                                label{
+                                    position: relative;
+                                    left:10px;
+                                    top:10px;
+                                    color:#fff;
+                                }
+                                ul{ 
+                                    display: none;
+                                    background: #fff;
+                                    color:#155e9f;
+                                    padding: 0px 37px 10px 37px;
+                                    border-radius:0 0 20px 20px;
+                                    list-style: none;
+                                    position: absolute;
+                                    top:417px;
+                                    left: 185px;
+                                    width:396px;
+                                    li{
+                                        padding:9px;
+                                        text-align: left;
+                                    }
+                                    li:hover{
+                                        background: #ebf6ff;
+                                        border-radius: 3px;
+                                    }
+                                }
+                            }
+                            .infinit-active{
+                                background: #fff;
+                                border-radius:20px 20px 0 0;
+                                label{
+                                    position: relative;
+                                    left:10px;
+                                    top:10px;
+                                    color:#155e9f;
+                                }
+                            }
+                            .person-3{
+                                width:40%;
+                                label{
+                                    float:left;
+                                    margin:10px;
+                                    color: #fff;
+                                    font-style: normal;
+                                }
+                                span{
+                                    float:left;
+                                    display: inline-block;
+                                    width:28px;
+                                    height:28px;    
+                                    background: url("../images/newregulation-controll-white.png");
+                                }
+                                .person-add{
+                                    margin-left:30px;
+                                    margin-top:5px;
+                                    border-top-left-radius: 14px;
+                                    border-bottom-left-radius: 14px;
+                                    background-position: 0 0;
+                                }
+                                .person-add:hover{
+                                    background-position: 0 -31px;
+                                }
+                                .person-minus{
+                                    margin-right:2px;
+                                    margin-top:5px;
+                                    border-top-right-radius: 14px;
+                                    border-bottom-right-radius: 14px;
+                                    background-position: -26px 0px;
+                                }
+                                .person-minus:hover{
+                                    background-position: -26px -31px;
+                                }
+                            }
+                            .person-0{
+                                width:40%;
+                                margin-left: 19%;
+                                label{
+                                    float:left;
+                                    margin:10px;
+                                    color: #fff;
+                                    font-style: normal;
+                                }
+                                .child{
+                                    background-position: 0 -1700px;
+                                }
+                                .child:hover{
+                                    background-position: 0 -1750px;
+                                }
+                                span{
+                                    float:left;
+                                    display: inline-block;
+                                    width:28px;
+                                    height:28px;    
+                                    background: url("../images/newregulation-controll-white.png");
+                                }
+                                .person-add{
+                                    margin-left:30px;
+                                    margin-top:5px;
+                                    border-top-left-radius: 14px;
+                                    border-bottom-left-radius: 14px;
+                                    background-position: 0 0;
+                                }
+                                .person-add:hover{
+                                    background-position: 0 -31px;
+                                }
+                                .person-minus{
+                                    margin-right:2px;
+                                    margin-top:5px;
+                                    border-top-right-radius: 14px;
+                                    border-bottom-right-radius: 14px;
+                                    background-position: -26px 0px;
+                                }
+                                .person-minus:hover{
+                                    background-position: -26px -31px;
+                                }
+                            }   
+                            .input-btn{
+                                width:60%;
+                                margin:30px 0 30px 20%;
+                                height:38px;
+                                border-radius:19px;
+                                background:#f98c03;
+                                border:1px solid #f98c03;
+                                color:#fff;
+                                font-size:16px;
+                                font-weight: 700;
+                                outline: none;
+                            }               
+                        }
+                    }
+                
+                    #online{
+                        width:100%;
+                        margin:0px;
+                        padding:40px 28px; 
                         div{
                             float: left;
-                            margin-top:15px;
                             background: rgba(255, 255, 255, 0.2);
                             width:100%;
                             height:40px;
                             box-sizing:border-box;
                             border:1px solid transparent;
                             border-radius: 20px;
+                            margin-bottom:15px;
                             i{
                                 float: left;
                                 width:36px;
                                 display: inline-block;
                                 height:40px;
-                                background:url('../images/icons-s629bad6460.png');
-                                
+                                background:url('../images/icons-s629bad6460.png');   
+                            }
+                            .name{
+                                background-position: 0 -2500px;
+                            }
+                            .name:hover{
+                                background-position: 0 -2550px;
+                            }
+                            .identify{
+                                background-position: 0 -1500px;
+                            }
+                            .identify:hover{
+                                background-position: 0 -1550px;
+                            }
+                            .identify-num{
+                                background-position: 0 -1600px;
+                            }
+                            .identify-num:hover{
+                                background-position: 0 -1650px;
+                            }
+                             .start{
+                                background-position: 0 -2300px;
+                            }
+                            .start:hover{
+                                background-position: 0 -2350px;
                             }
                             input{
-                                
                                 margin-left:10px;
                                 float: left;
                                 width:128px;
@@ -309,65 +567,17 @@ body{
                             input::-webkit-input-placeholder{
                                 color:#fff;
                             }
-                            #retime{
-                                display: none;
-                                padding-left:15px;
-                                border-left:1px solid #0165af;
-                            }
-                            .start{
-                                background-position: 0 -2300px;
-                            }
-                            .start:hover{
-                                background-position: 0 -2350px;
-                            }
-                            .end{
-                                background-position: 0 -1900px;
-                            }
-                            .end:hover{
-                                background-position: 0 -1950px;
-                            }
-                            .twoWay{
-                                background-position: 0 -300px;
-                                float: right;
-                            }
-                            .twoWay:hover{
-                                background-position: 0 -350px;
-                            }
-                            .go-time{
-                                background-position:0 -2400px;
-                            }
-                            .go-time:hover{
-                                background-position:0 -2450px;
-                            }
-                            .seat{
-                                background-position: 0 -2200px;
-                            }
-                            .seat:hover{
-                                background-position: 0 -2250px;
-                            }
-                            .passenger:hover{
-                                background-position: 0 -50px;
-                            }
                             .btndown{
-                                background:url("../images/newdownbtn.png") no-repeat;
-                                background-position: 0 4px;
-                                float: right;
+                                    background:url("../images/newdownbtn.png") no-repeat;
+                                    background-position: 0 4px;
+                                    float: right;
                             }
-                            .num{
-                                background-position: 0 -2000px;
-                            }
-                            .num:hover{
-                                background-position: 0 -2050px;
-                            }
-
-                        }
-                        .infinit{
                             label{
-                                position: relative;
-                                left:10px;
-                                top:10px;
-                                color:#fff;
-                            }
+                                    position: relative;
+                                    left:10px;
+                                    top:10px;
+                                    color:#fff;
+                                }
                             ul{ 
                                 display: none;
                                 background: #fff;
@@ -376,15 +586,20 @@ body{
                                 border-radius:0 0 20px 20px;
                                 list-style: none;
                                 position: absolute;
-                                top:415px;
-                                left: 185px;
-                                width:396px;
+                                top: 293px;
+                                left: 203px;
+                                width: 360px;
                                 li{
                                     padding:9px;
                                     text-align: left;
                                 }
+                                li:hover{
+                                    background: #ebf6ff;
+                                    border-radius: 3px;
+                                }
                             }
                         }
+                        
                         .infinit-active{
                             background: #fff;
                             border-radius:20px 20px 0 0;
@@ -395,97 +610,29 @@ body{
                                 color:#155e9f;
                             }
                         }
-                        .person-3{
-                            width:40%;
-                            label{
-                                float:left;
-                                margin:10px;
-                                color: #fff;
-                                font-style: normal;
-                            }
-                            span{
-                                float:left;
-                                display: inline-block;
-                                width:28px;
-                                height:28px;    
-                                background: url("../images/newregulation-controll-white.png");
-                            }
-                            .person-add{
-                                margin-left:30px;
-                                margin-top:5px;
-                                border-top-left-radius: 14px;
-                                border-bottom-left-radius: 14px;
-                                background-position: 0 0;
-                            }
-                            .person-add:hover{
-                                background-position: 0 -31px;
-                            }
-                            .person-minus{
-                                margin-right:2px;
-                                margin-top:5px;
-                                border-top-right-radius: 14px;
-                                border-bottom-right-radius: 14px;
-                                background-position: -26px 0px;
-                            }
-                            .person-minus:hover{
-                                background-position: -26px -31px;
-                            }
-                        }
-                        .person-0{
-                            width:40%;
-                            margin-left: 19%;
-                            label{
-                                float:left;
-                                margin:10px;
-                                color: #fff;
-                                font-style: normal;
-                            }
-                            .child{
-                                background-position: 0 -1700px;
-                            }
-                            .child:hover{
-                                background-position: 0 -1750px;
-                            }
-                            span{
-                                float:left;
-                                display: inline-block;
-                                width:28px;
-                                height:28px;    
-                                background: url("../images/newregulation-controll-white.png");
-                            }
-                            .person-add{
-                                margin-left:30px;
-                                margin-top:5px;
-                                border-top-left-radius: 14px;
-                                border-bottom-left-radius: 14px;
-                                background-position: 0 0;
-                            }
-                            .person-add:hover{
-                                background-position: 0 -31px;
-                            }
-                            .person-minus{
-                                margin-right:2px;
-                                margin-top:5px;
-                                border-top-right-radius: 14px;
-                                border-bottom-right-radius: 14px;
-                                background-position: -26px 0px;
-                            }
-                            .person-minus:hover{
-                                background-position: -26px -31px;
-                            }
-                        }   
-                        .input-btn{
-                            width:60%;
-                            margin:30px 0 30px 20%;
-                            height:38px;
-                            border-radius:19px;
-                            background:#f98c03;
-                            border:1px solid #f98c03;
+                        input{
+                            border-radius: 50px;
+                            padding: 8px 18px;
+                            font-size: 16px;
+                            font-weight: 400; 
                             color:#fff;
-                            font-size:16px;
-                            font-weight: 700;
-                            outline: none;
-                        }               
+                            border:0;
+                            box-shadow: 0;
+                        }
+                        .orangbtn{
+                            margin:10px 40px 20px 30px;
+                            background: #ff8e00;
+                        }
+                        .orangebtn:hover{
+                            background: #f98c03;
+                        }
+                        .bluebtn{
+                            margin:10px 30px 20px 50px;
+                            background: #155b9c;
+                        }
+                        .bluebtn:hover{
+                            background: #155897;
+                        }
                     }
                 } 
             }
