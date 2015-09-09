@@ -89,5 +89,17 @@ $(document).ready(function(){
    }
    $("#gotime").bind("click",addrmust);
    $("#retime").bind("click",addrmust);
-   
+
+   //经济舱头等舱or无限制
+   $(".infinit").bind("click",function(){
+      var $ul=$(".infinit ul");
+      if($ul.is(":visible")){
+         $(".infinit").removeClass("infinit-active");
+         $ul.hide();
+      }else{
+         $(".infinit").addClass("infinit-active");
+         $ul.show();
+      }
+   });
+
 });

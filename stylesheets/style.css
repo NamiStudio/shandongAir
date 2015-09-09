@@ -435,7 +435,7 @@ body .main-bg .container .left-container .pc-span5 .left-bottom .infinit label {
 }
 /* line 371, ../sass/style.scss */
 body .main-bg .container .left-container .pc-span5 .left-bottom .infinit ul {
-  z-index: 999;
+  display: none;
   background: #fff;
   color: #155e9f;
   padding: 0px 37px 10px 37px;
