@@ -145,6 +145,21 @@ $(document).ready(function(){
       $("#online").hide();
       $("#airnews").show();
    });
+   //pc-3的动画效果
+   setInterval(function(){
+      setTimeout(function(){
+         $(".pc-span3 .h-first").hide();
+         $(".pc-span3 .h-second").animate({opacity:"show"},1000);
+         $(".pc-span3 .h-second").show();
+      },3000); 
+      setTimeout(function(){
+         $(".pc-span3 .h-second").hide();
+         $(".pc-span3 .h-first").animate({opacity:"show"},1000);
+         $(".pc-span3 .h-first").show();
+      },7000);
+      
+   },10000);
+  
 
 
 
