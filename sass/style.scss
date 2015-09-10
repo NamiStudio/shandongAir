@@ -562,6 +562,7 @@ body{
                                 font-family: Microsoft yahei;
                                 font-weight: 100;
                                 color:#fff;
+                                padding:8px 0;
 
                             }
                             input::-webkit-input-placeholder{
@@ -645,7 +646,7 @@ body{
                         }
                     }
                     #airnews{
-                        padding:40px 0 116px 0;
+                        padding:40px 0 60px 0;
                         width: 100%;
                         box-sizing:border-box;
                         div{
@@ -658,6 +659,7 @@ body{
                                 margin-bottom: 20px;
                                 font-size: 14px;
                                 font-weight: 500;
+                                cursor:pointer;
                             }
                             div{
                                 float: left;
@@ -712,6 +714,7 @@ body{
                             }
                         }
                         .airnews-right{
+                            height: 149px;
                             div{
                                 .air-num{
                                     background-position: 0 -1500px;
@@ -720,6 +723,26 @@ body{
                                     background-position: 0 -1550px;
                                 }
                             }
+                        }
+                        .airnews-active{
+                            h5{
+                                color: #fff;
+                            }
+                            div{
+                                input::-webkit-input-placeholder{
+                                    color:#fff;
+                                }
+                            }
+                        }
+                        .airnewsbtn{
+                            width:260px;
+                            padding:8px 14px;
+                            border-radius: 18px;
+                            background: #ff8e00;
+                            color:#fff;
+                            box-shadow: 0;
+                            border:0;
+                            margin:30px 50px 0 80px;
                         }
                     }
                 } 

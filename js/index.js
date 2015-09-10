@@ -112,4 +112,41 @@ $(document).ready(function(){
    $(".infinit ul li").bind("click",changeText);
    $("#identify").bind("click",showul);
    $("#identify ul li").bind("click",changeText);
+
+   //航班动态里的切换效果
+   function airnews(){
+      $(this).addClass("airnews-active");
+      $(this).siblings().removeClass("airnews-active");
+   }
+   $(".airnews-left").bind("click",airnews);
+   $(".airnews-right").bind("click",airnews);
+   //left-top的切换效果
+   $("ul .book").bind("click",function(){
+      $(this).addClass("book-active");
+      $(this).siblings('.online').removeClass('online-active');
+      $(this).siblings('.airnews').removeClass('airnews-active');
+      $("#online").hide();
+      $("#airnews").hide();
+      $("#book").show();
+   });
+   $("ul .online").bind("click",function(){
+      $(this).addClass("online-active");
+      $(this).siblings('.book').removeClass('book-active');
+      $(this).siblings('.airnews').removeClass('airnews-active');
+      $("#book").hide();
+      $("#airnews").hide();
+      $("#online").show();
+   });
+   $("ul .airnews").bind("click",function(){
+      $(this).addClass("airnews-active");
+      $(this).siblings('.book').removeClass('book-active');
+      $(this).siblings('.online').removeClass('online-active');
+      $("#book").hide();
+      $("#online").hide();
+      $("#airnews").show();
+   });
+
+
+
+
 });
