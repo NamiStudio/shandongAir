@@ -151,14 +151,41 @@ $(document).ready(function(){
          $(".pc-span3 .h-first").hide();
          $(".pc-span3 .h-second").animate({opacity:"show"},1000);
          $(".pc-span3 .h-second").show();
-      },3000); 
+      },4000); 
       setTimeout(function(){
          $(".pc-span3 .h-second").hide();
          $(".pc-span3 .h-first").animate({opacity:"show"},1000);
          $(".pc-span3 .h-first").show();
-      },7000);
+      },9000);
       
-   },10000);
+   },11000);
+
+   //山航秒杀部分
+   function time(){
+      var $second=parseInt($("#list-1 .second").text());
+      if($second==0){
+         setTimeout(function(){
+            $("#list-1 .second").text("59");
+         },1000);
+         time();
+         return;
+      }else if($second<10){
+         setTimeout(function(){
+            $second--;
+            $("#list-1 .second").text("0"+$second);
+         },1000);
+         time();
+         return;
+      }else{
+          setTimeout(function(){
+            $second--;
+            $("#list-1 .second").text($second);
+         },1000);
+         time();
+         return;
+      }
+   }
+   time();
   
 
 

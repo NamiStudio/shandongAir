@@ -795,12 +795,16 @@ body{
                         float:left;
                         overflow: hidden;
                         span{
+                            padding:8px 1px;
                             width:31%;
                             height: 50px;
                             float: left;
                             margin:0;
                             border-radius: 3px;
                             background: #fff;
+                            font-family: 'arial';
+                            color: #1c6cb9;
+                            font-size: 32px;
                         }
                         .mid{
                             margin:0 3px;
