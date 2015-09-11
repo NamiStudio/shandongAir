@@ -201,22 +201,7 @@ $(document).ready(function(){
    countTime();
    setInterval(countTime,1000);
 
-   //轮播
-   // $(".sidebar #span3").bind("click",function(){
-   //    $(this).addClass("bar-active");
-   //    $(this).siblings("span").removeClass("bar-active");
-   //    $("#carousel li").hide();
-   //    $("#carousel #img3").show();
-   // })
-   function carousel(){
-      var $speed=2;
-      if ($("#carousel").offset().left>0) {
-         $("#carousel").css("left",-$("#carousel").width()/2+"px");
-      };
-      $("#carousel").css("left",$("#carousel").offset().left+$speed+"px");
-      var timer=setInterval(carousel,30);
-   }
-   carousel();
+   
 
 
 
