@@ -161,32 +161,45 @@ $(document).ready(function(){
    },11000);
 
    //山航秒杀部分
-   function time(){
-      var $second=parseInt($("#list-1 .second").text());
-      if($second==0){
-         setTimeout(function(){
-            $("#list-1 .second").text("59");
-         },1000);
-         time();
-         return;
-      }else if($second<10){
-         setTimeout(function(){
-            $second--;
-            $("#list-1 .second").text("0"+$second);
-         },1000);
-         time();
-         return;
-      }else{
-          setTimeout(function(){
-            $second--;
-            $("#list-1 .second").text($second);
-         },1000);
-         time();
-         return;
+   function listFirst(year,month,day,minute,s1,s2,s3){
+         var $oTarget=new Date();
+         $oTarget.setFullYear(arguments[0],arguments[1],$oTarget.getDay()+arguments[2]);
+         $oTarget.setHours(0,arguments[3],0);
+         var $iTarget=$oTarget.getTime();
+         var $oDate=new Date();
+         var $iNow=$oDate.getTime();
+         var $s=parseInt(($iTarget-$iNow)/1000);
+         var $h=parseInt($s/3600);
+         $s%=3600;
+         var $m=parseInt($s/60);
+         $s%=60;
+         if($h<10){
+            $(arguments[4]).text("0"+$h);
+         }else{
+            $(arguments[4]).text($h);
+         }
+         if($m<10){
+            $(arguments[5]).text("0"+$m);
+         }else{
+            $(arguments[5]).text($m);
+         }
+         if($s<10){
+            $(arguments[6]).text("0"+$s);
+         }else{
+            $(arguments[6]).text($s);
+         }
       }
+   function countTime(){
+      listFirst(2015,8,7,9,"#list-1 .hour","#list-1 .minute","#list-1 .second");
+      listFirst(2015,8,8,0,"#list-2 .hour","#list-2 .minute","#list-2 .second");
+      listFirst(2015,8,9,33,"#list-3 .hour","#list-3 .minute","#list-3 .second");
+      listFirst(2015,8,7,11,"#list-4 .hour","#list-4 .minute","#list-4 .second");
+      listFirst(2015,8,8,10,"#list-5 .hour","#list-5 .minute","#list-5 .second");
+      listFirst(2015,8,9,1,"#list-6 .hour","#list-6 .minute","#list-6 .second");
+      
    }
-   time();
-  
+   countTime();
+   setInterval(countTime,1000);
 
 
 
