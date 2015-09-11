@@ -925,12 +925,52 @@ body{
                     width: 57%;
                     .photo{
                         height: 250px;
+                        width: 570px;
+                        overflow: hidden;
+                        #carousel{
+                            padding:0;
+                            li{
+                                list-style: none;
+                                float: left;
+                            }
+                        }
                     }
                     .photo-bottom{
                         width:100%;
                         padding:9px;
                         height:60px;
-                        background: #ccc;
+                        background: #fff;
+                        .photoleft,.photoright{
+                            width:36px;
+                            height:38px;
+                            background-image: url(../images/icons-s629bad6460.png);
+                        }
+                        .photoleft{
+                            background-position: 0 -1050px;
+                            float: left;
+                        }
+                        .photoright{
+                            background-position: 0 -1350px;
+                            float: right;
+                        }
+                        .sidebar{
+                            text-align: center;
+                            width:85%;
+                            float: left;
+                            span{
+                                width: 10px;
+                                height: 10px;
+                                background: url(../images/slide-bar.png) no-repeat -115px -24px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                cursor: pointer;
+                                padding: 0 5px;
+                                margin: 0 5px;
+                            }
+                            .bar-active{
+                                background-position: -135px -24px;
+                            }
+                        }
                    }
                 }
                 .roll-right{
