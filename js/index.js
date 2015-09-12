@@ -200,6 +200,28 @@ $(document).ready(function(){
    countTime();
    setInterval(countTime,1000);
 
+   //同种图片不同颜色相互切换
+   function changeColorOn(){
+      var $that=$(this);
+      $that.hide();
+      $that.next(".next").show();
+   }
+   $(".img-list a .list-start").bind("mouseover",changeColorOn);
+   $(".img-list a .img_list_1").bind("mouseover",changeColorOn);
+   $(".img-list a .img_list_2").bind("mouseover",changeColorOn);
+   $(".img-list a .img_list_3").bind("mouseover",changeColorOn);
+   $(".img-list a .img_list_4").bind("mouseover",changeColorOn);
+   $(".img-list a .list-end").bind("mouseover",changeColorOn);
+   $(".img-list a .next").bind("mouseout",function(){
+      $(this).parent("a").children(0).show();
+      $(this).hide();
+   });
+
+   //轮播
+  
+   
+   
+
    
 
 
