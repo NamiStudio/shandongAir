@@ -156,8 +156,7 @@ $(document).ready(function(){
          $(".pc-span3 .h-second").hide();
          $(".pc-span3 .h-first").animate({opacity:"show"},1000);
          $(".pc-span3 .h-first").show();
-      },9000);
-      
+      },9000); 
    },11000);
 
    //山航秒杀部分
