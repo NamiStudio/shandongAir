@@ -160,41 +160,43 @@ $(document).ready(function(){
    },11000);
 
    //山航秒杀部分
-   function listFirst(year,month,day,minute,s1,s2,s3){
+   function listFirst(day,hour,minute,s1,s2,s3){
          var $oTarget=new Date();
-         $oTarget.setFullYear(arguments[0],arguments[1],$oTarget.getDay()+arguments[2]);
-         $oTarget.setHours(0,arguments[3],0);
+         $oTarget.setFullYear($oTarget.getFullYear(),$oTarget.getMonth(),$oTarget.getDate()+arguments[0]);
+         $oTarget.setHours(arguments[1],arguments[2],0);
          var $iTarget=$oTarget.getTime();
          var $oDate=new Date();
          var $iNow=$oDate.getTime();
+         console.log($iTarget-$iNow);
          var $s=parseInt(($iTarget-$iNow)/1000);
+         console.log($s);
          var $h=parseInt($s/3600);
          $s%=3600;
          var $m=parseInt($s/60);
          $s%=60;
          if($h<10){
-            $(arguments[4]).text("0"+$h);
+            $(arguments[3]).text("0"+$h);
          }else{
-            $(arguments[4]).text($h);
+            $(arguments[3]).text($h);
          }
          if($m<10){
-            $(arguments[5]).text("0"+$m);
+            $(arguments[4]).text("0"+$m);
          }else{
-            $(arguments[5]).text($m);
+            $(arguments[4]).text($m);
          }
          if($s<10){
-            $(arguments[6]).text("0"+$s);
+            $(arguments[5]).text("0"+$s);
          }else{
-            $(arguments[6]).text($s);
+            $(arguments[5]).text($s);
          }
       }
    function countTime(){
-      listFirst(2015,8,7,9,"#list-1 .hour","#list-1 .minute","#list-1 .second");
-      listFirst(2015,8,8,0,"#list-2 .hour","#list-2 .minute","#list-2 .second");
-      listFirst(2015,8,9,33,"#list-3 .hour","#list-3 .minute","#list-3 .second");
-      listFirst(2015,8,7,11,"#list-4 .hour","#list-4 .minute","#list-4 .second");
-      listFirst(2015,8,8,10,"#list-5 .hour","#list-5 .minute","#list-5 .second");
-      listFirst(2015,8,9,1,"#list-6 .hour","#list-6 .minute","#list-6 .second");
+      listFirst(1,9,9,"#list-1 .hour","#list-1 .minute","#list-1 .second");
+      listFirst(2,0,0,"#list-2 .hour","#list-2 .minute","#list-2 .second");
+      listFirst(3,3,1,"#list-3 .hour","#list-3 .minute","#list-3 .second");
+      listFirst(1,18,2,"#list-4 .hour","#list-4 .minute","#list-4 .second");
+      listFirst(2,10,3,"#list-5 .hour","#list-5 .minute","#list-5 .second");
+      listFirst(3,1,4,"#list-6 .hour","#list-6 .minute","#list-6 .second");
       
    }
    countTime();
@@ -219,7 +221,13 @@ $(document).ready(function(){
 
    //轮播
   
-   
+   // var date=new Date();
+   // alert(date.getFullYear());
+   // alert(date.getMonth());
+   // alert(date.getDate());
+   // alert(date.getHours());
+   // alert(date.getMinutes());
+   // alert(date.getSeconds());
    
 
    
