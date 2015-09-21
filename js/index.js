@@ -24,11 +24,11 @@ $(document).ready(function(){
       $(this).siblings("label").text($label1);
       $(this).hide();
    });
-   $(".person").bind("mouseover",function(){
-      $(".person .menu").show();
+   $(".log").bind("mouseover",function(){
+      $(".log .menu").show();
    });
-   $(".person").bind("mouseout",function(){
-      $(".person .menu").hide();
+   $(".log").bind("mouseout",function(){
+      $(".log .menu").hide();
    })
    //机票预订里的效果
    $("#domestic").bind("click",function(){

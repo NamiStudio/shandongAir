@@ -203,22 +203,28 @@ body{
 		 		background-image:url(../images/headset.png);
                 cursor: pointer;
 		 	}
-		 	.person{
-		 		float:left;
-		 		width:34px;
-                height:34px;
-		 		margin:18px 0 8px 0px;
-		 		border-radius:17px;
-		 		background-color:#00457b;
-		 		background-image:url(../images/nav_person.png);
-		 		background-repeat:no-repeat;
-		 		background-position:center;
-                cursor: pointer;
+            .log{
+                float:left;
+                width: 120px;
+                padding: 0;
+                margin:18px 0 8px 0px;
+                position: relative;
+                left:290px;
+                top:-69px;
+               .person{  
+                    margin: 0 auto;
+                    width:34px;
+                    height:34px;
+                    border-radius:17px;
+                    background-color:#00457b;
+                    background-image:url(../images/nav_person.png);
+                    background-repeat:no-repeat;
+                    background-position:center;
+                    cursor: pointer;
+                }
                 .menu{
                     display: none;
-                    position: absolute;
-                    top: 55px;
-                    left:1095px;
+                    margin-top:5px;
                     width: 120px;
                     background: #01467C;
                     color:#ff8e00;
@@ -235,8 +241,9 @@ body{
                         background: #003966;
                         cursor: pointer;
                     }
-                }
-		 	}
+                } 
+            }
+		 	
 		 }
          .container{
             width:1000px;
