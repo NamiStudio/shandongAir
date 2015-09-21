@@ -10,6 +10,26 @@ $(document).ready(function(){
         $(this).children('div.menu-hide').css("display","none");
       });
    });
+   //header部分（简体中文和繁体中文切换，登录注册）
+   $(".country").bind("mouseover",function(){
+      $(".complex").show();
+   });
+   $(".country").bind("mouseout",function(){
+      $(".complex ").hide();
+   });
+   $(".country .complex").bind("click",function(){
+      var $label1=$(this).text();
+      var $label2=$(this).siblings("label").text();
+      $(this).text($label2);
+      $(this).siblings("label").text($label1);
+      $(this).hide();
+   });
+   $(".person").bind("mouseover",function(){
+      $(".person .menu").show();
+   });
+   $(".person").bind("mouseout",function(){
+      $(".person .menu").hide();
+   })
    //机票预订里的效果
    $("#domestic").bind("click",function(){
       $(this).addClass("active");
@@ -221,13 +241,7 @@ $(document).ready(function(){
 
    //轮播
   
-   // var date=new Date();
-   // alert(date.getFullYear());
-   // alert(date.getMonth());
-   // alert(date.getDate());
-   // alert(date.getHours());
-   // alert(date.getMinutes());
-   // alert(date.getSeconds());
+   
    
 
    
