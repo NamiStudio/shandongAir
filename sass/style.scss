@@ -205,12 +205,11 @@ body{
 		 	}
             .log{
                 float:left;
-                width: 120px;
+                width: 110px;
                 padding: 0;
                 margin:18px 0 8px 0px;
-                position: relative;
-                left:290px;
-                top:-69px;
+                position: absolute;
+                left:1100px;
                .person{  
                     margin: 0 auto;
                     width:34px;
@@ -225,7 +224,7 @@ body{
                 .menu{
                     display: none;
                     margin-top:5px;
-                    width: 120px;
+                    width: 110px;
                     background: #01467C;
                     color:#ff8e00;
                     border-radius:17px; 
@@ -1128,6 +1127,7 @@ body{
                     img{
                         display: block;
                         margin:0 4px;
+
                     }
                     .list-start{
                         margin:0 4px 0 0;
