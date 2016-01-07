@@ -180,8 +180,9 @@ $(document).ready(function(){
    },11000);
 
    //山航秒杀部分
+        var $oTarget=new Date();
    function listFirst(day,hour,minute,s1,s2,s3){
-         var $oTarget=new Date();
+         
          $oTarget.setFullYear($oTarget.getFullYear(),$oTarget.getMonth(),$oTarget.getDate()+arguments[0]);
          $oTarget.setHours(arguments[1],arguments[2],0);
          var $iTarget=$oTarget.getTime();
